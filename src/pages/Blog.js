@@ -4,7 +4,7 @@ const BlogPage = () => {
   return (
  
     <div style={{
-      backgroundImage: `url('https://img.freepik.com/free-photo/rural-countryside-landscape-transylvania-region-romania-mist-covered-hills_181624-42189.jpg?t=st=1709475505~exp=1709479105~hmac=256ee488b3abebd60296adfcf8464c94706f3710fabb39aef7922a6fa4f8e4e8&w=1480')`,
+      backgroundImage: `url('https://img.freepik.com/free-photo/rural-countryside-landscape-transylvania-region-romania-mist-covered-hills_181624-42189.jpg?t=st=1709734546~exp=1709738146~hmac=6975aaba2b6c53a48fd05025a911a39301d8247f8e73ffee7042a2c8145669d8&w=1380')`,
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',

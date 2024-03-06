@@ -1,77 +1,52 @@
 const attractionsAndHotels = {
   Romania: {
-    Transalpina: {
-      id: "nature",
+    "Palatul Parlamentului Bucuresti": {
+      id:"museums",
       attractions: [
         {
-          imageUrlA:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Transalpina_14.jpg/1200px-Transalpina_14.jpg",
-          descriptions:
-            "Nestled in the Carpathian Mountains, Transalpina is a scenic road that winds its way through the heart of Romania. One of Romania’s best-kept secrets, Transalpina offers breathtaking views of the surrounding mountains and valleys, making it a must-visit destination for nature lovers and adventure seekers alike.With its winding curves and hairpin bends, Transalpina is a must for drivers and bikers looking for a thrilling ride along the highest paved road in Romania. Offering a true sense of adventure,Transalpina is a once-in-a-lifetime experience.But Transalpina is not just about the journey. Along the way, you can explore pretty villages, hike the Transylvanian mountains, sample local cuisine, and experience the warm hospitality of the Romanian people. So, pack your bags and get ready to discover Transalpina, one of Romania’s best driving roads.",
-        },
-      ],
+        descriptions:"The dimensions of the Palace of the Parliament in Bucharest, Romania, are indeed impressive, leading to several records as you mentioned. Here is a summary of the key points:t is the second-largest administrative building in the world after the Pentagon in the United States.It is the heaviest building in the world, constructed with 1 million cubic meters of marble, 700,000 tons of steel and bronze, and 3,500 tons of crystal.The building measures 270 meters by 240 meters, with a height of 86 meters above ground and 92 meters below ground.It has 9 levels above ground and another 9 underground, housing approximately 1,000 rooms including 440 offices, over 30 halls and salons, restaurants, libraries, and even a concert hall.The construction of the Palace of the Parliament involved 700 architects and approximately 20,000 workers who worked in three shifts, 24 hours a day.",
+        imageUrlA:"https://s.inyourpocket.com/gallery/273253.jpg",
+      }],
       hotels: [
         {
-          name: "Hotel Rozmarin",
-          id: "Hotel Rozmarin",
+          name: "Sunsets at the Palace",
+          id: "Sunsets at the Palace",
           category: "3-star",
-          description:
-            "Hotel Rozmarin offers comfortable rooms and a welcoming atmosphere near Transalpina.",
-          imageUrl:
-            "https://images.helloromania.com/cazare-predeal/hotel-rozmarin-predeal-1382/hotel-rozmarin-8b71ee-original.jpeg?width=950&aspect_ratio=5:3",
-          location: "Transalpina",
-          rating: 4.2,
-          reviewsCount: 1800,
-          price: "70",
+          description:"Luxurious hotel located near the Palace of the Parliament in Bucharest.",
+          imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/382642371.jpg?k=76b28551899d3be7cb33b57bfc150604cc7b2a35856b4cf0564becfe9e80abc5&o=&hp=1",
+          location: "18 Bulevardul Libertății Bl.104, sc.2 , ap.31 , et. 5, Sector 5, 030167 București,",
+          rating: 10,
+          reviewsCount: 160,
+          price: "100",
           breakfast: true,
           breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
+          lunch: false,
+          lunchPrice: 0,
+          dinner: false,
+          dinnerPrice: 0,
         },
         {
-          name: "Cabana Paraul Iovului",
-          id: "Cabana Paraul Iovului",
-          category: "Chalet",
+          name: "Continental Forum Bucuresti Palatul Parlamentului",
+          id: "Continental Forum Bucuresti Palatul Parlamentului",
+          category: "4-star",
           description:
-            "Cabana Paraul Iovului offers rustic accommodation and beautiful mountain views near Transalpina.",
-          imageUrl:
-            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/3b/96/01/cabana-transalpina-ranca.jpg?w=1200&h=-1&s=1",
-          location: "Transalpina",
-          rating: 4.0,
-          reviewsCount: 1600,
-          price: "60",
+            "Comfortable hotel located in Sector 5, Bucharest, offering great value.",
+          imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/317303761.jpg?k=9c79f2b8e9bfad9514f5389d26d95564d4afb5e10badee9ebc14a4f95667e088&o=&hp=1",
+          location: "Bucharest",
+          rating: 8.5,
+          reviewsCount: 3148,
+          price: "90",
           breakfast: true,
           breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 12,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-        {
-          name: "Cabana Mija",
-          id: "Cabana Mija",
-          category: "Chalet",
-          description:
-            "Cabana Mija offers cozy rooms and a peaceful setting near Transalpina.",
-          imageUrl:
-            "https://lh3.googleusercontent.com/p/AF1QipPUQod4xy9ZECi49Z-EQOgpwQLHC5GUXhkjbkS8=s1360-w1360-h1020",
-          location: "Transalpina",
-          rating: 3.8,
-          reviewsCount: 1400,
-          price: "50",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
+          lunch: false,
+          lunchPrice: 0,
+          dinner: false,
+          dinnerPrice: 0,
         },
       ],
     },
     "Valea cu Povesti": {
-      id: "museums",
+      id:"museums",
       attractions: [
         {
           imageUrlA:
@@ -144,7 +119,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Salina Praid is a salt mine in Romania, located in Harghita County. The mine is situated in the Gurghiului Mountains basin, encompassed by the Salt Hill, forming the triangle of Praid - Ocna de Jos - Ocna de Sus. The salt mine is located 120 meters below the surface.",
+            "Salina Praid is a salt mine in Romania, located in Harghita County. The mine is situated in the Gurghiului Mountains basin, encompassed by the Salt Hill. The salt mine is located 120 meters below the surface.This salt mine has been exploited since the 17th century and is one of the largest in Europe.",
           imageUrlA:
             "https://media-cdn.tripadvisor.com/media/attractions-splice-spp-720x480/07/a7/27/e6.jpg",
         },
@@ -211,7 +186,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "The Transfăgărășan (trans + Făgăraș) or DN7C is a paved mountain road crossing the southern section of the Carpathian Mountains of Romania. It has national-road ranking and is the second-highest paved road in the country after the Transalpina.",
+            "Nestled in the Carpathian Mountains, Transalpina is a scenic road that winds its way through the heart of Romania. One of Romania’s best-kept secrets, Transalpina offers breathtaking views of the surrounding mountains and valleys, making it a must-visit destination for nature lovers and adventure seekers alike.",
           imageUrlA:
             "https://media.tacdn.com/media/attractions-splice-spp-674x446/07/01/8d/00.jpg",
         },
@@ -252,24 +227,6 @@ const attractionsAndHotels = {
           lunchPrice: 13,
           dinner: true,
           dinnerPrice: 18,
-        },
-        {
-          name: "Hotel Posada Vidraru",
-          id: "Hotel Posada Vidraru",
-          category: "3-star",
-          description:
-            "Hotel Posada Vidraru offers comfortable rooms and a restaurant with panoramic views of Lake Vidraru.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Transfăgărășan",
-          rating: 4.6,
-          reviewsCount: 2200,
-          price: "90",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
         },
       ],
     },
@@ -345,7 +302,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            " A town coated by the legendary halo of the great historical events that took place within its ancient walls, Alba Iulia has deeply got into the Romanian people's mind and soul. No other Transylvanian town has gathered so many crucial meanings and symbols. With thousands and thousands of years of human existence lying behind it, Alba Iulia represents the charming mirror in which all the ethnic groups of Transylvania can discover their vigor or their traditions of yore.",
+            " A town coated by the legendary halo of the great historical events that took place within its ancient walls, Alba Iulia has deeply got into the Romanian people's mind and soul. No other Transylvanian town has gathered so many crucial meanings and symbols. With thousands and thousands of years behind it",
           imageUrlA:
             "https://travelingtransylvania.com/wp-content/uploads/2023/08/alba-citadel-7.jpg",
         },
@@ -460,10 +417,8 @@ const attractionsAndHotels = {
       id: "museums",
       attractions: [
         {
-          descriptions:
-            "The Merry Cemetery is a cemetery in the village of Săpânța, Maramureş county,Roma nia. It is famous for its colourful tombstones with naïve paintings describing, in an original and poetic manner, the persons who are buried there as well as scenes from their lives",
-          imageUrlA:
-            "https://urlaub-in-rumänien.de/wp-content/uploads/2017/11/cimitirul_vesel5.jpg",
+          descriptions:   "The Merry Cemetery is a cemetery in the village of Săpânța.It is famous for its colourful tombstones with naïve paintings describing, in an original and poetic manner, the persons who are buried there as well as scenes from their lives",
+          imageUrlA: "https://urlaub-in-rumänien.de/wp-content/uploads/2017/11/cimitirul_vesel5.jpg",
         },
       ],
       hotels: [
@@ -523,12 +478,82 @@ const attractionsAndHotels = {
         },
       ],
     },
+    Transalpina: {
+      id: "nature",
+      attractions: [
+        {
+          imageUrlA:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Transalpina_14.jpg/1200px-Transalpina_14.jpg",
+          descriptions:
+            "Nestled in the Carpathian Mountains, Transalpina is a scenic road that winds its way through the heart of Romania. One of Romania’s best-kept secrets, Transalpina offers breathtaking views of the surrounding mountains and valleys, making it a must-visit destination for nature lovers and adventure seekers alike.",
+        },
+      ],
+      hotels: [
+        {
+          name: "Hotel Rozmarin",
+          id: "Hotel Rozmarin",
+          category: "3-star",
+          description:
+            "Hotel Rozmarin offers comfortable rooms and a welcoming atmosphere near Transalpina.",
+          imageUrl:
+            "https://images.helloromania.com/cazare-predeal/hotel-rozmarin-predeal-1382/hotel-rozmarin-8b71ee-original.jpeg?width=950&aspect_ratio=5:3",
+          location: "Transalpina",
+          rating: 4.2,
+          reviewsCount: 1800,
+          price: "70",
+          breakfast: true,
+          breakfastPrice: 0,
+          lunch: true,
+          lunchPrice: 10,
+          dinner: true,
+          dinnerPrice: 15,
+        },
+        {
+          name: "Cabana Paraul Iovului",
+          id: "Cabana Paraul Iovului",
+          category: "Chalet",
+          description:
+            "Cabana Paraul Iovului offers rustic accommodation and beautiful mountain views near Transalpina.",
+          imageUrl:
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/3b/96/01/cabana-transalpina-ranca.jpg?w=1200&h=-1&s=1",
+          location: "Transalpina",
+          rating: 4.0,
+          reviewsCount: 1600,
+          price: "60",
+          breakfast: true,
+          breakfastPrice: 0,
+          lunch: true,
+          lunchPrice: 12,
+          dinner: true,
+          dinnerPrice: 18,
+        },
+        {
+          name: "Cabana Mija",
+          id: "Cabana Mija",
+          category: "Chalet",
+          description:
+            "Cabana Mija offers cozy rooms and a peaceful setting near Transalpina.",
+          imageUrl:
+            "https://lh3.googleusercontent.com/p/AF1QipPUQod4xy9ZECi49Z-EQOgpwQLHC5GUXhkjbkS8=s1360-w1360-h1020",
+          location: "Transalpina",
+          rating: 3.8,
+          reviewsCount: 1400,
+          price: "50",
+          breakfast: true,
+          breakfastPrice: 0,
+          lunch: true,
+          lunchPrice: 10,
+          dinner: true,
+          dinnerPrice: 15,
+        },
+      ],
+    },
     "Salina Turda": {
       id: "nature",
       attractions: [
         {
           descriptions:
-            "Turda Salt Mine is the world’s most spectacular underground formation shaped by people. Turda Salt Mine is one of the most spectacular tourist destinations in the world. It is the underground formation that people created in a special natural environment, in the depths of Transylvania, digging into the salt deposited after the evaporation of the sea that covered the entire region millions of years ago. Now, the salt from Turda Salt Mine could cover the salt requirement for the entire Planet for 60 years, if it were necessary.",
+"Turda Salt Mine is one of the most spectacular tourist destinations in the world. It is the underground formation that people created in a special natural environment, in the depths of Transylvania, digging into the salt deposited after the evaporation of the sea that covered the entire region millions of years ago.",
           imageUrlA:
             "https://planiada.ro/www/uploads/403/250.Salina_Turda_3.jpg",
         },
@@ -662,7 +687,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Viscri village this real-life emblem of the Transylvanian countryside is situated in the heart of the country- a little sideways of the main road that connects Brasov to Sighisoara.Initially inhabited by Szecklers and later on colonized by Saxons of Transylvania, it long remained untouched and slightly forgotten. One of the most emblematic edifices in the village of Viscri is the Evanghelic Fortified Church, or, also called the Romanic Hall-Chruch, dating back to the 13th century.It is extremely important to mention that this fortified church is one of the best-preserved ones. The Viscri Fortified Church and Fortress is a part of UNESCO World Heritage since 1999 and it is the most visited spot in Viscri.When here,it is imperative for you not to miss the most iconic parts of the fortified church.",
+            "Viscri village this real-life emblem of the Transylvanian countryside is situated in the heart of the country.The Viscri Fortified Church and Fortress is a part of UNESCO World Heritage since 1999 and it is the most visited spot in Viscri.When here,it is imperative for you not to miss the most iconic parts of the fortified church.",
           imageUrlA:
             "https://st.depositphotos.com/2047341/53782/i/450/depositphotos_537827400-stock-photo-village-farm-houses-viscri-romania.jpg",
         },
@@ -796,7 +821,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Established in 1920 and officially opened to the public in 1925,the Botanical Garden in Cluj-Napoca is a scientific, educational, and didactic institution, whose foundations were laid in the current location by Alexandru Borza, a prominent figure in Romanian biology. The Botanical Garden covers an area of 14 hectares, with a varied terrain suitable for the growth and development of plants from different continents. Approximately 10,000 specific categories of plants are cultivated here, grouped for better management into several sectors: ornamental, phytogeographic, systematic, economic, the complex of greenhouses, and the sector dedicated to visually impaired people.",
+            "Established in 1920bthe Botanical Garden is a scientific, educational, and didactic institution, whose foundations were laid in the current location by Alexandru Borza, a prominent figure in Romanian biology. The Botanical Garden covers an area of 14 hectares, with a varied terrain suitable for the growth and development of plants from different continents",
           imageUrlA:
             "https://cluj24.ro/wp-content/uploads/2020/09/gradina-botanica-jibou-e1599236297478.jpg",
         },
@@ -868,7 +893,7 @@ const attractionsAndHotels = {
           imageUrlA:
             "https://www.primariahunedoara.ro/ziar/wp-content/uploads/2019/08/castelul-corvinilor-foto-calin-corpaciu.jpg",
           descriptions:
-            "The Corvin Castle, also known as Hunyadi Castle, is one of the most beautiful castles in Romania and one of the largest castles in Europe. Its construction began in 1440, and it was designed as a defense fortress against the Ottoman Empire. Many say that Vlad the Impaler was imprisoned here during his exile.Many refer to it as one of the seven wonders of Romania, and it had a big impact on popular culture, inspiring people such as Bram Stoker in their work. Its name derives from the name of the one who ordered its construction, John Hunyadi, and his son, Matthias Corvinus, the King of Hungary between 1458 and 1490. The Corvin family had a great impact on Europe during the 15th century, with John Hunyadi (commonly known as Iancu de Hunedoara) becoming famous for stopping the Ottoman Empire from conquering Belgrade and advancing towards Western Europe. The Corvin family was related to the family of Vlad the Impaler, but their story is one filled with conspiracies and betrayals.",
+            "The Corvin Castle, also known as Hunyadi Castle, is one of the most beautiful castles in Romania and one of the largest castles in Europe. Its construction began in 1440, and it was designed as a defense fortress against the Ottoman Empire.",
         },
       ],
       hotels: [
@@ -933,7 +958,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "The Berca Mud Volcanoes (Romanian: Noroioși de la Pâclele Mici) is a geological and botanical reservation located in Scorțoasa commune close to Berca in Buzău County in Romania.[1] Its most spectacular feature is the mud volcanoes, small volcano-shaped structures typically a few metres high caused by the eruption of mud and natural gases.",
+            "The Berca Mud Volcanoes is a geological and botanical reservationIts most spectacular feature is the mud volcanoes, small volcano-shaped structures typically a few metres high caused by the eruption of mud and natural gases.",
           imageUrlA:
             "https://sanatateabuzoiana.ro/wp-content/uploads/2023/08/Vulcanii-noroiosi-buzau.png",
         },
@@ -985,7 +1010,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Bran Castle, medieval stronghold in the Transylvanian Alps (Southern Carpathian Mountains) of Brașov county, central Romania. Popularly—if inaccurately—identified with the fictional Castle Dracula, Bran Castle is one of Romania’s top tourist attractions.",
+            "Bran Castle, medieval stronghold in the Transylvanian Alps  of Brașov county. Popularly—if inaccurately—identified with the fictional Castle Dracula, Bran Castle is one of Romania’s top tourist attractions.        Bran Castle is a castle in Bran, 25 kilometres (16 mi) southwest of Brașov",
           imageUrlA:
             "https://www.hotelambient.ro/wp-content/uploads/2018/06/CastelulBran-1.jpg",
         },
@@ -1087,7 +1112,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "The palace was built between 1800 and 1811 by Săndulache Sturdza. In 1862, his son auctioned off the building and this was bought by Alexandru Ioan Cuza, to be his summer residence. Elena Cuza, his wife, was the one who chose and purchased the furniture from Paris. After Cuza’s death, the palace belonged to his two sons, and after both of them passed away, it was owned by Maria Moruzzi. After Elena Cuza’s death, the estate was donated to ‘Caritatea’ hospital, which organised it in a children’s hospital. Later, it will be re-organised in a hospital for TB patients, after another donation.",
+            "The palace was built between 1800 and 1811 by Săndulache Sturdza. In 1862, his son auctioned off the building and this was bought by Alexandru Ioan Cuza, to be his summer residence. Elena Cuza, his wife, was the one who chose and purchased the furniture from Paris.",
           imageUrlA:
             "https://www.agerpres.ro/foto/watermark/7654808?author=ADRIAN+CUBA+%2F+AGERPRES+FOTO",
         },
@@ -1136,7 +1161,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Red Lake is a natural dam lake, situated at the foot of Hasmas Mountains, near the town of Gheorgheni, Harghita County. It is the largest natural mountain lake in Romania name from Red Creek, crossing the layers of red, iron oxides and hydroxides.Red Lake Resort is a paradise for those seeking relaxation and rest. Situated in the eastern part of Transylvania in the Eastern Carpathians, Red Lake and Gorge Gorge is a region of unique beauty in the world. Red Lake is a natural lake formed in 1837 during a landslides.They say a rock fall down from the mountain and blocked thread Bucaz river lake formed by the time you see now. What is really interesting about this lake is no way or form, no color, but the right look or dramatic. Because you are now almost 200 years the forest, the lake reflects today that a sunken forest.Everywhere longer old tree trunks still see water coming out.A unique region in the world where forests of evergreen trees, fresh air provide favorable conditions for rest. The resort is a paradise for those seeking relaxation and rest, passing through the picturesque landscape an unforgettable atmosphere.",
+            "Red Ravine is a geological reservation located 3 km from Sebeș and is the most suitable place in the area for paragliding. Its fame comes from the reddish earth formations, which from the satellite resemble wrinkles. This can be observed as soon as you are near the destination. That is why some also call it the 'small canyon of Romania'.",
           imageUrlA:
             "https://mediacdn.libertatea.ro/unsafe/870x0/smart/filters:format(webp):contrast(8):quality(75)/https://static4.libertatea.ro/wp-content/uploads/2021/06/lacul-rosu-imagini.jpg",
         },
@@ -1200,7 +1225,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Discover the rich history and culture of Râșnov by visiting the iconic Râșnov Fortress, located at Str. Cetății nr. 17. The fortress, one of the most important historical monuments in Romania, is currently undergoing a major restoration process. Today, visitors can explore the Fortress Garden, where they can take in stunning views of the surrounding landscape and learn more about the fortress's history through informative displays and exhibits. Built by Saxons and Teutonic knights during the 1211-1225 Crusade, the Râșnov Fortress has stood the test of time, resisting invasions by the Tatars in 1335 and the Ottomans in 1421. It served as a refuge for the Râșnov community until the 18th century and is a testament to the city's rich cultural heritage",
+            "Discover the rich history and culture of Râșnov by visiting the iconic Râșnov Fortress.The fortress, one of the most important historical monuments in Romania, is currently undergoing a major restoration process.It served as a refuge for the Râșnov community until the 18th century and is a testament to the city's rich cultural heritage",
           imageUrlA:
             "https://harmonyhome.ro/wp-content/uploads/2020/11/cetatea-rasnov.jpg",
         },
@@ -1334,7 +1359,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "The village of Saschiz, or ‘the road village’, as many travelers know it, is divided in its very middle by the national road Brașov – Sighișoara, which makes it the most easy to access UNESCO village from Transylvania.One might have the impression that a quick glimpse when passing through it by car is all that is required to have seen it all. It couldn’t be further from the truth! Even nowadays, the village boasts the medieval charm of those days and displays a large number of pastel-shuttered crimson-roofed Saxon houses, lined along the main road, somehow dwarfed by a giant tower. In Saschiz, nearly 600 Saxon houses are under UNESCO protection.The village has a 700 year history and was previously populated by Szeklers (Hungarian population) until the end of the 13th century, when the Saxons took over and baptized it Kaissdit. Following the Saxon way of living, inspired by the German culture, the village started testifying the growth of a large number of guilds, with shoemakers, carpenters, potters and painters being the most famous of them all.Saschiz has one impressive fortified church and a majestic clock tower that mesmerizes you with its stature. Some legends say that it stirred envy among the locals from the other villages, reason for which they tried to tear it down with ropes, without much success though. Nowadays, the story is used as a lovely explanation for its current crooked shape.",
+            "The village of Saschiz, or ‘the road village’, as many travelers know it, is divided in its very middle by the national road Sighișoara, which makes it the most easy to access UNESCO village from Transylvania.One might have the impression that a quick glimpse when passing through it by car is all that is required to have seen it all. It couldn’t be further from the truth",
           imageUrlA:
             "https://visitmures.com/storage/nRTcquykzH9GX7IQ9spv18CBtqFx2cm0zRE9s9jC.jpeg",
         },
@@ -1365,7 +1390,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            " The church is particularly valuable both for its paintings and for its Byzantine-influenced style. It is carved into sandstone rock, and next to the church, also carved into the rock, is the dining hall used since the time of Neagoe Basarab.",
+            " The church is particularly valuable both for its paintings and for its Byzantine-influenced style. It is carved into sandstone rock, and next to the church, also carved into the rock, is the dining hall used since the time of Neagoe Basarab.The first documentary attestation is from June 23, 1512, but there is reliable information indicating that the church existed even before this date.",
           imageUrlA:
             "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9s54EmUI4-VqPWXxZW2qUCIkzHx_dpjR-N02NNO0-Jw&s",
         },
@@ -1413,7 +1438,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Sarmizegetusa Regia (also known as Sarmisegetusa, Sarmisegethusa, Sarmisegethuza; Ancient Greek: Ζαρμιζεγεθούσα, romanized: Zarmizegethoúsa) was the capital and the most important military, religious and political centre of the Dacians before the wars with the Roman Empire. Built on top of a 1200 m high mountain, the fortress, comprising of six citadels, was the core of a strategic and defensive system in the Orăștie Mountains (in present-day Romania) Sarmizegetusa Regia should not be confused with Ulpia Traiana Sarmizegetusa, the Roman capital of Dacia built by Roman Emperor Trajan some 40 km away, which was not the Dacian capital. Sarmizegetusa Ulpia was discovered earlier, was known already in the early 1900s, and was initially mistaken for the Dacian capital, a confusion which led to incorrect conclusions being made regarding the military history and organization of the Dacians.[3]",
+            "Sarmizegetusa Regia  was the capital and the most important military, religious and political centre of the Dacians before the wars with the Roman Empire. Built on top of a 1200 m high mountain, the fortress, comprising of six citadels, was the core of a strategic and defensive system in the Orăștie Mountains .",
           imageUrlA:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Sarmisegetusa_Regia_-_Templele_patrulatere_mici_-_Zona_sacra_%E2%80%93_Gradistea_Muntelui%2C_Muntii_Sureanu%2C_Hunedoara%2C_Romania_19.JPG/1920px-Sarmisegetusa_Regia_-_Templele_patrulatere_mici_-_Zona_sacra_%E2%80%93_Gradistea_Muntelui%2C_Muntii_Sureanu%2C_Hunedoara%2C_Romania_19.JPG",
         },
@@ -1514,7 +1539,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "The Voroneț Monastery is a medieval monastery in the Romanian village of Voroneț, now a part of the town Gura Humorului. It is one of the famous painted monasteries from southern Bukovina, in Suceava County.[1] The monastery was constructed by Stephen the Great in 1488 over a period of 3 months and 3 weeks to commemorate the victory at Battle of Vaslui. Often known as the 'Sistine Chapel of the East'[2] for its vivid frescoes, Voroneț's walls feature an intense shade of blue known in Romania as 'Voroneț blue.'",
+            "The Voroneț Monastery is a medieval monastery.It is one of the famous painted monasteries from southern Bukovina, in Suceava County.Was constructed by Stephen the Great in 1488 over a period of 3 months and 3 weeks to commemorate the victory at Battle of Vaslui",
           imageUrlA:
             "https://planiada.ro/www/uploads/496/42.M_n_stirea_Vorone_1.jpg",
         },
@@ -1582,10 +1607,9 @@ const attractionsAndHotels = {
       id: "cities",
       attractions: [
         {
-          descriptions:
-            "Sibiu – one of the most charming places you will ever see .From the train and bus stations that are located next to each other it’s only a short walk to the center. Very quickly you will understand why Sibiu was named the 8th most idyllic place to live in Europe.Sbiu looks like taken straight from the fairy tale and is also among the prettiest, cutest and most charming towns I’ve ever seen (and yes, I know I shouldn’t say a town about a place of some 150.000 inhabitants but that’s how the Sibiu feels).Sibiu is known as the city where houses have eyes. The peculiar mix of German and Hungarian influence in Sibiu resulted in the special kind of architecture where there is a small window built at the attic, for cooling purposes. Some of these houses were built even in the 15th century!",
+          descriptions:"Sibiu – one of the most charming places you will ever see. Very quickly you will understand why Sibiu was named the 8th most idyllic place to live in Europe,looks like taken straight from the fairy tale and is also among the prettiest, cutest and most charming towns I’ve ever seen a town Sibiu is known as the city where houses have eyes. The peculiar mix of German and Hungarian influence in Sibiu resulted in the special kind of architecture where there is a small window built at the attic!",
           imageUrlA:
-            "https://assets.bucketlistly.blog/sites/5adf778b6eabcc00190b75b1/content_entry5adf77af6eabcc00190b75b6/64532b4a065767000206b6bc/files/best-things-to-do-in-sibiu-main-image-hd-op.jpg",
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRip4CLINf8uRmKsBtnUltfpBoB0tsBykZop39C7MRzaA&s",
         },
       ],
       hotels: [
@@ -1632,10 +1656,8 @@ const attractionsAndHotels = {
     "Cazanele Dunării": {
       id: "nature",
       attractions: [
-        {
-          descriptions: "",
-          imageUrlA:
-            "https://static4.libertatea.ro/wp-content/uploads/2021/06/cazanele-dunarii.jpg",
+        { descriptions: "The Danube Boilers, and implicitly, the Iron Gates Natural Park, are among the most appreciated tourist attractions in Romania, attracting a multitude of tourists eager to discover the beauty of the place every year. The Boilers are a section of the Danube Gorge, passing through the Carpathian Mountains. The landscapes in this area are truly enchanting, and the way the Danube flows through the rocky mountain walls is breathtaking.Clisura Dunării is situated between river Nera in the west.",
+          imageUrlA:"https://static4.libertatea.ro/wp-content/uploads/2021/06/cazanele-dunarii.jpg",
         },
       ],
       hotels: [
@@ -1683,7 +1705,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Podul lui Dumnezeu (The God's Bridge or Natural Bridge from Ponoarele) is the only functional natural road passage at a national level, crossed by DJ 670 Baia de Aramă-Drobeta Turnu-Severin, being a vestige of the Podului Cave resulting from the collapse of its ceiling. It is the largest natural bridge in the country and the second largest in Europe (30 m long, 13 m wide, 22 m high, and 9 m thick), but the only one in the world open to road traffic (including heavy vehicles). In terms of petrographic composition, it has a massive structure of stratified limestone in 1-2 meter layers, with the downstream arch being in a much better state of preservation than the one upstream.",
+            "(The God's Bridge or Natural Bridge from Ponoarele) is the only functional natural road passage at a national level, being a vestige of the Podului Cave resulting from the collapse of its ceiling. It is the largest natural bridge in the country and the second largest in Europe (30 m long, 13 m wide, 22 m high, and 9 m thick), but the only one in the world open to road traffic",
           imageUrlA:
             "https://www.vacantacumasina.ro/wp-content/uploads/ponoarele-22.jpg",
         },
@@ -1735,7 +1757,7 @@ const attractionsAndHotels = {
         {
           imageUrlA: "https://www.nepasadegalati.ro/images/articole10/nera.jpg",
           descriptions:
-            "The national park represents a mountainous area with limestone cliffs, sinkholes, karst formations, caves (Lenuța Cave, Peștera de sub Padina Popii, Bijuteria Cave), sinkholes, scree, gorges, waterfalls, ponoare, meadows, and forests.",
+            "The Nera Gorge-Beușnița National Park represents a mountainous area with limestone cliffs, sinkholes, karst formations, caves ,sinkholes, scree, gorges, waterfalls, ponoare, meadows, and forests.Nera Gorge-Beușnița National Park with an area of 36,758 ha[3] was declared natural protected area by the Law Number.5  of March 6, 2000 and represents a mountainous area",
         },
       ],
       hotels: [
@@ -1784,7 +1806,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Cascada Beușnița - the most beautiful waterfall in the Cheile Nerei National Park Beușnița Waterfall is actually a succession of waterfalls on the Beu River upstream from Lake Ochiul Beului, forming the Beușnița Waterfalls. The largest of them is over five meters high and is also the most spectacular. These waterfalls were created by the action of water for millennia on the limestone substrate. The limestone dissolved by water was deposited layer by layer along the riverbed, forming the limestone tufa, a soft and permeable rock that allowed the shaping of numerous forms, mini-dams, water eyes, and successive waterfalls.  ",
+            "Cascada Beușnița - the most beautiful waterfall in the Cheile Nerei National Park Beușnița Waterfall. The largest of them is over five meters high and is also the most spectacular.Beușnița Waterfall is an impressive cascade located in the Semenic Mountains in western Romania. This spectacular waterfall has a vertical drop of approximately 5 meters and flows into a natural basin with clear, cold waterfall.Access to Beușnița Waterfall is via a short hike on a well-marked and maintained trail, which offers a pleasant experience in the midst of nature.",
           imageUrlA:
             "https://static4.libertatea.ro/wp-content/uploads/2021/12/cascada-beusnita.jpg",
         },
@@ -1918,7 +1940,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "The Village Museum, located in Bucharest, Romania, is one of the largest and oldest open-air museums in Europe. Founded in 1936, the museum hosts an impressive collection of original monuments, including traditional houses, churches, watermills, and windmills, all of significant historical and artistic value.The exhibits in the traditional houses include items such as weavings, pottery, carpets, icons, and furniture, reflecting the creativity and spirit of the Romanian people. Visitors can explore various aspects of traditional Romanian life, discovering local customs, traditions, and crafts. The Village Museum offers a fascinating insight into Romanian history and culture, making it a popular destination for tourists from around the world. ",
+            "The Village Museum, located in Bucharest, Romania, is one of the largest and oldest open-air museums in Europe. Founded in 1936, the museum hosts an impressive collection of original monuments, including traditional houses, churches, watermills, and windmills, all of significant historical and artistic value.The exhibits in the traditional houses include items such as weavings, pottery, carpets, icons, and furniture, reflecting the creativity and spirit of the Romanian people.",
           imageUrlA:
             "https://upload.wikimedia.org/wikipedia/commons/f/fa/Muzeul_Satului_Bucuresti.JPG",
         },
@@ -1971,7 +1993,7 @@ const attractionsAndHotels = {
           imageUrlA:
             "https://www.resortambient.ro/wp-content/uploads/2018/09/cetatea_prejmer.jpg",
           descriptions:
-            "Due to its strategic position, the church in Prejmer was heavily fortified. Its construction was started by the Teutonic Knights in 1218, and after their expulsion, it was completed by the Cistercians. The Greek cross-shaped plan was modified between 1512-1515 by adding two unequal side naves and extending the central nave. A bell tower was erected above the square in 1461. The church building itself was never fortified but was protected by a 14-meter-high surrounding wall, strengthened with five defense towers, a zwinger, and a moat. A valuable feature preserved to this day is the living quarters and storage rooms spread over 4 floors on the inner side of the wall, with a walkway behind.The simple interior does not retain any frescoes, and the 19th-century painting was removed during restorations. The main attraction inside the church is the triptych altar, with the crucifixion scene on the central panel. In 1999, the church was inscribed on the UNESCO World Heritage List.",
+            "Due to its strategic position, the church in Prejmer was heavily fortified. Its construction was started by the Teutonic Knights in 1218, and after their expulsion, it was completed by the Cistercians. A bell tower was erected above the square in 1461. The church building itself was never fortified but was protected by a 14-meter-high surrounding wall, strengthened with five defense towers, a zwinger, and a moat. A valuable feature preserved to this day is the living quarters and storage rooms spread over 4 floors on the inner side of the wall, with a walkway behind.The main attraction inside the church is the triptych altar, with the crucifixion scene on the central panel. In 1999, the church was inscribed on the UNESCO World Heritage List.",
         },
       ],
       hotels: [
@@ -2019,7 +2041,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "The Scărișoara Cave houses the largest underground glacier in Europe and among the largest in the world. It is one of the most impressive caves in Romania. The Scărișoara Cave is located at an altitude of 1165 meters and houses 80,000 cubic meters of ice. The oldest ice at the base of the block is approximately 4,000 years old. Thus, in the ice block, complex scientific data related to plants, animals, and climatic evolution have been stored as in a gigantic encyclopedia of the Apuseni Mountains. On ice cores collected in 2005, researchers from the Emil Racoviță Institute of Speleology in Cluj and many foreign associates decipher an incredible amount of data from the past. How was the weather in each year of the last 4,000 years, when there were fires in the area, when and how much gold was exploited in the Apuseni Mountains during the time of the Dacians. In addition to the scientific value of the glacier, it also presents a special tourist interest due to the uniqueness and scope of the natural phenomenon.",
+          "The Scărișoara Cave houses the largest underground glacier in Europe and among the largest in the world. It is one of the most impressive caves in Romania.Is located at an altitude of 1165 meters and houses 80,000 cubic meters of ice. Thus, in the ice block, complex scientific data related to plants, animals, and climatic evolution have been stored as in a gigantic encyclopedia of the Apuseni Mountains.How was the weather in each year of the last 4,000 years, when there were fires in the area, when and how much gold was In addition to the scientific value of the glacier, it also presents a special tourist interest due to the uniqueness and scope of the natural phenomenon.",
           imageUrlA:
             "https://arieseni-apuseni.ro/imagini/obiective-turistice/facebookOg/pesteraGhetarulScarisoara.jpg",
         },
@@ -2087,7 +2109,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "The village of Belis, located in the Gilau Mountains, in Cluj county, where the altitude exceeds 1300 meters, hides the ruins of a place of worship sacrificed by the communist regime, but which managed to remain standing to this day. Almost 60 years ago, the mysterious church was swallowed by the waters of the Somesul Cald river.The last time the church was completely seen was over 10 years ago, when the lake was drained. Also, the church reappeared almost entirely in 2011, due to drought, when divers took advantage of the opportunity to make new explorations.Officially named the Urmanczy Church, it was built over 100 years ago, serving the faithful of the Roman Catholic religion. In",
+            "The village of Belis, located in the Gilau Mountains, in Cluj county, where the altitude exceeds 1300 meters, hides the ruins of a place of worship sacrificed by the communist regime, but which managed to remain standing to this day. Almost 60 years ago, the mysterious church was swallowed by the waters of the Somesul Cald river",
           imageUrlA:
             "https://www.turistderomania.ro/tdruplfiles/biserica-de-sub-lac.jpg",
         },
@@ -2135,7 +2157,7 @@ const attractionsAndHotels = {
       id: "nature",
       attractions: [
         {
-          descriptions: "",
+          descriptions: "Cascada Cailor is one of the most beautiful waterfalls in Romania, visited every year by thousands of tourists. Discover the legend of this waterfall and what other tourist attractions you can visit in the area. The Horses' Waterfall is the largest waterfall in the Romanian lands.Is located at an altitude of 1300 meters and has a water drop of 90 meters.",
           imageUrlA:
             "https://patriaromana.com/wp-content/uploads/2021/03/Cascada-Cailor_detaliu-A.jpg",
         },
@@ -2185,8 +2207,7 @@ const attractionsAndHotels = {
       id: "nature",
       attractions: [
         {
-          descriptions:
-            "Parc Aventura Brasov is located in the city of Brasov, approximately 10 kilometers from the city center. It is an outdoor adventure park, near a lake, with various rope routes through the forest and a zip line. Parc Aventura Brasov offers no less than 16 routes with progressively increasing difficulty levels. Each route is marked with a certain color, symbolizing its difficulty level: Yellow: includes 3 easy routes, at a height of 3 meters;Green: includes 3 easy routes, at a height of 6 meters, recommended for children aged 8 and above. Blue: includes 2 medium difficulty routes, ideal for children aged 12 and above. Red: includes 2 difficult routes, recommended for children aged 14 and above.  Black: a very difficult route, intended for teenagers aged 16 and above and adults.Purple: a special set of 5 routes, equipped with a special safety system, designed for children aged 4 to 7 years. Parc Aventura Brasov also organizes bike tours on well-hidden routes.Additionally, Parc Aventura offers a new concept of climbing in the climbing room, through interactive games on the virtual climbing panel. Thanks to the interactive games on the virtual climbing panel, you can improve your balance, agility, and endurance, regardless of your level of preparation, age, or physical condition.",
+          descriptions: "Parc Aventura Brasov is an adventure park located in Brasov, Romania, offering a wide range of outdoor activities and challenges for visitors of all ages. Nestled in the picturesque forests near Brasov, the park provides a thrilling experience for adventure enthusiasts and nature lovers alike.The park features a variety of courses with different levels of difficulty, including zip lines, rope bridges, and climbing walls. Visitors can test their agility, balance, and strength as they navigate through the treetops and conquer the various obstacles. One of the highlights of Parc Aventura Brasov is the panoramic views it offers of the surrounding landscape. From the top of the courses, participants can enjoy breathtaking views of the forests, mountains, and valleys below, making it a truly unforgettable experience.Parc Aventura Brasov is a great destination for families, friends, and groups looking for an exciting outdoor adventure. With its stunning natural setting and thrilling activities, the park offers a unique and memorable experience for all who visit.",
           imageUrlA:
             "https://coltisorderomania.ro/wp-content/uploads/2019/04/aventura-brasov-000-1200x800.jpg",
         },
@@ -2237,7 +2258,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "If you love animals, you must visit a place where bears feel at home. Near Zărnești, 38 kilometers from Brașov, there is a place that is the largest brown bear sanctuary in Europe. It was established in 2005 by the 'Millions of Friends Association' and saved bears from circuses, zoos, or from people who kept them in cages, under hard-to-describe conditions. Currently, the sanctuary in Zărnești houses 126 captive bears in freedom. If you love them, you can adopt one from a distance by donating money monthly for food and treatment. The place is special, and you can see rescued and cared for animals in their natural environment. The Zărnești City Hall has provided the association with 69 hectares of forest to complete its project. The story began with the bear Maya, who was kept in a metal cage for six years in Brașov, as an attraction for a local pub's customers. The World Society for the Protection of Animals complained at the time about the cruelty with which the bear was treated, and Cristina Lapis, the founder of the project, who took care of abandoned dogs, decided to take care of bears as well. The bear sanctuary in Zărnești can be visited all year round from Tuesday to Sunday. Children under five cannot visit the bears for safety reasons. The ticket prices vary depending on the day you decide to visit and the age of the visitor.",
+            "If you love animals, you must visit a place where bears feel at home. Currently, the sanctuary in Zărnești houses 126 captive bears in freedom. If you love them, you can adopt one from a distance by donating money monthly for food and treatment. The place is special, and you can see rescued and cared for animals in their natural environment. The Zărnești City Hall has provided the association with 69 hectares of forest to complete its project. The story began with the bear Maya, who was kept in a metal cage for six years in Brașov, as an attraction for a local pub's customers. The World Society for the Protection of Animals complained at the time about the cruelty with which the bear was treated, and Cristina Lapis, the founder of the project, who took care of abandoned dogs, decided to take care of bears as well. The bear sanctuary in Zărnești can be visited all year round from Tuesday to Sunday. Children under five cannot visit the bears for safety reasons. The ticket prices vary depending on the day you decide to visit and the age of the visitor.",
           imageUrlA:
             "https://brasovstiri.ro/wp-content/uploads/2022/10/0516BOP11.jpg.jpeg",
         },
@@ -2290,7 +2311,7 @@ const attractionsAndHotels = {
           imageUrlA:
             "https://ghidul-horeca.ro/wp-content/uploads/2021/08/Statiunea-Soveja-6-e1665153088865.jpg",
           descriptions:
-            "Tourist attractions in Soveja:Soveja Heroes Mausoleum: Located at the entrance to the Soveja resort in Vrancea County, the mausoleum was built between 1926-1929 at the initiative of the locals and the 'War Widows' organization, with the support of the 'Heroes' Worship Society,' according to the plans of architect George Petrescu. The mausoleum resembles a stone fortress, with a cross-shaped plan and a dome roof, and is built of stone and marble. Soveja Hermitage: Founded in 2001 in memory of the foundation of the ruler Matei Basarab, the former Soveja Monastery, also called Dobromira, built in 1644-1645. The church, dedicated to 'Saints Emperors Constantine and Helena,' was consecrated on May 21, 2005. Located in a geographically unique area rich in historical and cultural events, the Soveja Hermitage stands as a blessed ecclesiastical and spiritual landmark that connects the past with the present.Dragomira Chalet, used by Nicolae Ceausescu: Located in the commune of Soveja, at an altitude of 630 meters, the chalet was used by the family of the former dictator before 1989 for hunting parties in the Vrancea Mountains. Built in 1976 and renovated in 2004, it has a surface area of 207.38 square meters.",
+            "Tourist attractions in Soveja:Soveja Heroes Mausoleum: Located at the entrance to the Soveja resort in Vrancea County, the mausoleum was built between 1926-1929 at the initiative of the locals and the 'War Widows' organization, with the support of the 'Heroes' Worship Society,' according to the plans of architect George Petrescu. The mausoleum resembles a stone fortress, with a cross-shaped plan and a dome roof, and is built of stone and marble. The church, dedicated to 'Saints Emperors Constantine and Helena,' was consecrated on May 21, 2005. Located in a geographically unique area rich in historical and cultural events, ",
         },
       ],
       hotels: [
@@ -2339,7 +2360,7 @@ const attractionsAndHotels = {
       id: "nature",
       attractions: [
         {
-          descriptions: "",
+          descriptions: "The Hoia Baciu Forest, located on a hill near Cluj, has earned its reputation as the most frightening forest in Romania and beyond. This is because the forest experiences some very unusual phenomena. The Hoia Baciu Forest is the source of many stories and legends, some of which claim it is a haunted place. Over time, the forest has become a popular tourist destination, visited both during the day and at night.The Hoia Baciu Forest has been included in various lists of the most frightening places in the world, alongside other areas with similar phenomena, such as the Mojave Desert and the Breeze Gulf in the United States.",
           imageUrlA:
             "https://www.punctul.ro/wp-content/uploads/2021/03/10-Hoia-Baciu.jpg",
         },
@@ -2370,7 +2391,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Whether we're talking about Brâncuși's sculptures in Târgu-Jiu, the Hunyad Castle in Hunedoara, or the traditions and customs from all regions of the country, Romania offers culture, entertainment, and authentic beauty.However, there are some places where history has not been too kind, and where the consequences of decisions made decades ago are still visible.One such place is the sunken village of Geamăna, in Alba County. This unseen village has become a tourist attraction for both Romanians and foreigners looking for mysteries, adventure, and unique photos. Indeed, the photos taken in the area are spectacular and offer a unique perspective of the place.",
+            "Whether we're talking about Brâncuși's sculptures in Târgu-Jiu, the Hunyad Castle in Hunedoara, or the traditions and customs from all regions of the country, Romania offers culture, entertainment, and authentic beauty.However, there are some places where history has not been too kind, and where the consequences of decisions made decades ago are still visibl",
           imageUrlA:
             "https://img.spynews.ro/?u=https%3A%2F%2Fspynews.ro%2Fuploads%2Fmodules%2Fnews%2F0%2F2022%2F5%2F18%2F279090%2Fgeamanascufundat.jpg&w=700",
         },
@@ -2402,7 +2423,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Lake Colibița is an artificial reservoir located in the Călimani Mountains, in Bistrița-Năsăud county. The lake stretches over a distance of 5 kilometers and is also known as the 'Mountain Sea.'The Colibița Dam, created by the damming of Lake Colibița on the Bistrița Bârgăului River, was built between 1977 and 1991 for hydroelectric purposes. Lake Colibița covers an area of 270 hectares, is 13 kilometers long, and has a volume of 65 million cubic meters. It is located at an altitude of 900 meters. The tourist resort of Colibița is located on the shores of the lake.",
+            "Lake Colibița is an artificial reservoir located in the Călimani Mountains, in Bistrița-Năsăud county. The lake stretches over a distance of 5 kilometers and is also known as the 'Mountain Sea.'The Colibița Dam, created by the damming of Lake Colibița on the Bistrița Bârgăului River, was built between 1977 and 1991 for hydroelectric purposes. Lake Colibița covers an area of 270 hectares, is 13 kilometers long, and has a volume of 65 million cubic meters. It is located at an altitude of 900 meters.",
           imageUrlA:
             "https://ghidul-horeca.ro/wp-content/uploads/2021/07/Lacul-Colibita-din-Bistrita-Bargaului-16.jpg",
         },
@@ -2461,14 +2482,14 @@ const attractionsAndHotels = {
         },
       ],
     },
-    "Poiana Regală și Stâncile Franz Joseph, județul Prahova": {
+    "Poiana Regală și Stâncile Franz Joseph": {
       id: "nature",
       attractions: [
         {
           imageUrlA:
             "https://zigzagprinromania.com/blog/wp-content/uploads/2019/02/Stancile.Franz_.Joseph.Stana_.Regala_28.jpg",
           descriptions:
-            "Two of the most beautiful places in Sinaia, with spectacular views, Poiana Regală and the Franz Joseph Rocks, were favorite spots for the Romanian monarchs for walks and countryside parties organized for the high guests of the Royal House. It is said that King Carol I himself came here with the Emperor of Austria-Hungary to show him the entire Prahova Valley. These two destinations, although less known to tourists, are relatively easy to access on foot or by car. Poiana Regală and the Franz Joseph Rocks are breathtaking discoveries for those who have the inspiration to reach them. Poiana Regală, or Royal Glade, is actually an alpine meadow located at 1270 meters, with exceptional views over the Bucegi Mountains, from Furnica to the Caraiman Cliff. The place was discovered by King Carol I and was part of the Royal Domains, hence the 'royal'name of the place.",
+          " These two destinations, although less known to tourists, are relatively easy to access on foot or by car. Poiana Regală and the Franz Joseph Rocks are breathtaking discoveries for those who have the inspiration to reach them. Poiana Regală, or Royal Glade, is actually an alpine meadow located at 1270 meters, with exceptional views over the Bucegi Mountains, from Furnica to the Caraiman Cliff. The place was discovered by King Carol I and was part of the Royal Domains, hence the 'royal'name of the place.",
         },
       ],
       hotels: [
@@ -2498,7 +2519,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Lacul Amara sounds like a fascinating destination! Situated in the Amara Resort, about 7 km from the town of Slobozia, the lake is the main tourist attraction and the primary natural therapeutic factor in the area. Shaped like the letter S, the lake stretches over an area of approximately 130 hectares. Few people know that Lake Amara has healing powers. The scientist Petru Poni is the one who discovered the miraculous and healing powers of the lake, and since then, thousands of people come to treat their ailments in the lake in Bărăgan.",
+            "Lacul Amara sounds like a fascinating destination! Situated in the Amara Resort, about 7 km from the town of Slobozia, the lake is the main tourist attraction and the primary natural therapeutic factor in the area. Shaped like the letter S, the lake stretches over an area of approximately 130 hectares. Few people know that Lake Amara has healing powers. The scientist Petru Poni is the one who discovered the miraculous and healing powers of the lake, and since then, thousands of people come to treat their ailments in the lake.",
           imageUrlA:
             "https://amara-parc.ro/wp-content/uploads/2019/11/rasarit-lacul-amara_beb8e5c60cfce3-1170x878-1-922x346.jpg",
         },
@@ -2530,7 +2551,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Coming from the direction of Vatra Dornei - Bistrița on E58, you will reach the village of Poiana Stampei (after 20 km). At some point, you will turn left and deviate from the main road, following the sign towards the village of Dornișoara. You will travel approximately 4 km (keeping to the right direction) on a well-maintained gravel road, until you reach a small intersection. Here you will notice an informative panel on the right side indicating the entrance to the reserve. You will cross the railway line and enter a somewhat mysterious pine forest, until you reach the recently arranged wooden bridge, which will take you through the entire reserve. The trail is 2 km round trip and is traversed in the most relaxing way possible.  Along the way, there are some spaces with benches and informative panels that will better inform you about the fauna, flora, and other things that exist here.",
+            "At some point, you will turn left and deviate from the main road, following the sign towards the village of Dornișoara. You will travel approximately 4 km (keeping to the right direction) on a well-maintained gravel road, until you reach a small intersection. Here you will notice an informative panel on the right side indicating the entrance to the reserve. You will cross the railway line and enter a somewhat mysterious pine forest, until you reach the recently arranged wooden bridge, which will take you through the entire reserve.",
           imageUrlA:
             "https://holidayandtrips.com/wp-content/uploads/2021/05/Poiana-Stampei-Peat-Bog-Tinovul-Mare-Romania-sky-4.jpg",
         },
@@ -2562,7 +2583,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "The highest peak is Peleaga (2509m), followed by Păpușa, which is only one meter shorter. The relics of the Quaternary glaciation in the Carpathians, the most representative forms of relief generated by climatic changes, make the Retezat National Park, the park with blue eyes: no less than 58 permanent glacial lakes, located between 1700 and 2300 meters altitude. Fragmented due to the large number of valleys that cross its steep slopes and the massive precipitation can cause landslides. According to the Retezat National Park website, www.retezat.ro, in August 1999, an exceptional rain caused major changes in most of the valleys in the Retezat Massif. Such natural phenomena are estimated to occur once every 80-100 years.",
+            "The highest peak is Peleaga (2509m), followed by Păpușa, which is only one meter shorter. The relics of the Quaternary glaciation in the Carpathians, the most representative forms of relief generated by climatic changes, make the Retezat National Park, the park with blue eyes: no less than 58 permanent glacial lakes, located between 1700 and 2300 meters altitude.",
           imageUrlA:
             "https://www.clubulcopiilor.ro/wp-content/uploads/2023/09/Parcul-National-Retezat-1-jpg.webp",
         },
@@ -2597,7 +2618,7 @@ const attractionsAndHotels = {
           imageUrlA:
             "https://uzpr.ro/wp-content/uploads/2021/11/muzeul-astra.jpg",
           descriptions:
-            "Whether it's an exploration of the open-air exhibition, participation in a traditional celebration or festival, the ASTRA experience is a source of personal enrichment and knowledge of Romanian values and identity, as well as those of national minorities. During the events, you can explore local culture, crafts, and traditions through music, dance, and specific gastronomy. You can also interact with folk craftsmen and learn more about their history and cultural values. Whatever you choose to do, the ASTRA experience captivates with its diversity, creativity, and innovation, tailored to new needs and responding to internationally generated challenges.",
+          "Whether it's an exploration of the open-air exhibition, participation in a traditional celebration or festival,is a source of personal enrichment and knowledge of Romanian values and identity, as well as those of national minorities.The Astra Museum, commonly known as the Astra Museum, is the largest open-air museum in Romania and one of the most prominent ethnographic museums in Europe.",
         },
       ],
       hotels: [
@@ -2659,7 +2680,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "The Semenic Cheile Carașului National Park stretches over an area of 36,214 hectares, characterized by a spectacular natural diversity of rocks, waters, forests, areas dedicated to mountaineering and climbing, picnic spots, and relaxation – in short, a natural area imbued with beauty, calm, and the spectacle of nature. The Semenic – Cheile Carașului National Park brings together 8 natural reserves, all of which are protected by law due to their local flora and fauna ecosystems, so the area is limited in terms of resources, which cannot be exploited, but only admired and preserved.",
+            "TThe Semenic Cheile Carașului National Park stretches over an area of 36,214 hectares, characterized by a spectacular natural diversity of rocks, waters, forests, areas dedicated to mountaineering and climbing, picnic spots, and relaxation – in short, a natural area imbued with beauty, calm, and the spectacle of nature. The  Park brings together 8 natural reserves",
           imageUrlA:
             "https://pe-harta.ro/obiectiveturistice/wp-content/uploads/2012/09/Parcul-National-Semenic-Cheile-Carasului2.jpg",
         },
@@ -2691,8 +2712,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           imageUrlA: "https://i.ytimg.com/vi/3BnSqOZTr60/maxresdefault.jpg",
-          description:
-            "The Mocănița from Vişeu de Sus is the last steam-powered forestry railway in Europe that is still used for transporting wood, but also for tourism purposes. Read the full article: Mocănița from Valea Vaserului, a spectacular adventure in Maramureș. Route, price, and schedule",
+          descriptions:"The Mocănița from the Vaser Valley is known worldwide as the last narrow-gauge forest railway still operating with steam locomotives fueled by wood and coal..The construction of the forest railway in the Vaser Valley began in 1932, at a time when this type of railway was very popular in Europe, especially in the Carpathian region.",
         },
       ],
       hotels: [
@@ -2754,7 +2774,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Peștera Muierii is one of the most well-known and visited caves in Romania. The cave is located in the Baia de Fier commune, in Gorj County. It is important and impressive both due to the formations developed inside it, as well as the relics discovered in it. Peștera Muierii is the first electrified cave in Romania and has been, over time, the site of numerous valuable research studies.",
+            "Is one of the most well-known and visited caves in Romania.It is important and impressive both due to the formations developed inside it, as well as the relics discovered in it. Peștera Muierii is the first electrified cave in Romania and has been, over time, the site of numerous valuable research studies.",
           imageUrlA:
             "https://www.descoperimromania.ro/wp-content/uploads/2018/08/Pestera-Muierii-Cea-mai-vizitata-pestera-Cazare-Oltenia-Atractii-Oltenia-DescoperimRomania.ro-3.jpg",
         },
@@ -2789,7 +2809,7 @@ const attractionsAndHotels = {
           imageUrlA:
             "https://www.descopera.ro/wp-content/uploads/2020/06/shutterstock-lacul-morii-12-06-20_descopera2-scaled.jpg",
           descriptions:
-            "Although its arrangement still leaves much to be desired, Lacul Morii remains one of the best places in Bucharest to watch sunsets, relax with a picnic, or simply take a walk along the water's edge. It should be noted, however, that this area is shrouded in mystery, and the history of the lake is linked to many stories, each darker than the other. We invite you to read the story of Lacul Morii.",
+            "Lacul Morii remains one of the best places in Bucharest to watch sunsets, relax with a picnic, or simply take a walk along the water's edge. It should be noted, however, that this area is shrouded in mystery, and the history of the lake is linked to many stories, each darker than the other.",
         },
       ],
       hotels: [
@@ -2819,7 +2839,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "The Buila Vânturarița Massif is located in the central-northern part of Vâlcea County and is part of the Căpățânii Mountains. The massif stands out from the main chain of these mountains, both in terms of its arrangement and its constitution and relief. The main ridge of the Căpățânii Mountains, predominantly consisting of crystalline schists, has an east-west arrangement, with secondary ridges towards the north and south. Two limestone massifs are an exception, with their main ridges arranged southwest-northeast: the Tarnovu Massif in the northwest and the Buila Vânturarița Massif in the southeast.",
+            "The Buila Vânturarița Massif is part of Vâlcea County and is part of the Căpățânii Mountains. The massif stands out from the main chain of these mountains, both in terms of its arrangement and its constitution and relief. The main ridge of the Căpățânii Mountains, predominantly consisting of crystalline schists, has an east-west arrangement, with secondary ridges towards the north and south.",
           imageUrlA:
             "https://www.infinitravel.ro/wp-content/uploads/2023/01/DJI_0853.jpg",
         },
@@ -2852,9 +2872,7 @@ const attractionsAndHotels = {
         {
           imageUrlA:
             "https://cdn.cluj.com/cluj/13320331_1687661174827908_469084979_n-640x480.jpg",
-          descriptions:
-            "The Octavian Goga Memorial Museum in Ciucea spans an area of approximately 24 hectares. The museum includes the castle building, the iconic structure known as the house on the rock, the Mausoleum of the Love of the Goga spouses (Octavian and Veturia), the White House (Museum of Ethnographic Art), formerly used for guests, the Ady Endre House, as well as the small church in Gălpâia and the monastery located on the grounds of this estate.The property was purchased by the Goga family in 1920 from the widow of the Hungarian poet Ady Endre. Octavian and Veturia lived here until their deaths (in 1938 and 1979, respectively). Veturia remained strongly involved in the community, and even today, many residents of Ciucea remember 'Gogoaia'.",
-        },
+          descriptions:"The Octavian Goga Memorial Museum in Ciucea spans an area of approximately 24 hectares. The museum includes the castle building, the iconic structure known as the house on the rock, the Mausoleum of the Love of the Goga spouses (Octavian and Veturia), the White House (Museum of Ethnographic Art), formerly used for guest",  },
       ],
       hotels: [
         {
@@ -2883,7 +2901,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            " For over three centuries, the Sinaia Monastery has watched over the picturesque Prahova Valley, located within the Bucegi Massif, at the foot of Mount Furnica, at an altitude of 860 meters, near the confluence of the Prahova River with the Peleș stream, 122 km north of Bucharest and 49 km south of Brașov. It is part of the town of Sinaia and is in the immediate vicinity of the famous Peleș Castle, the summer residence of the Romanian royal family between 1883 and 1947.",
+            " For over three centuries, the Sinaia Monastery has watched over the picturesque Prahova Valley, located within the Bucegi Massif, at the foot of Mount Furnica, at an altitude of 860 meters, near the confluence of the Prahova River with the Peleș stream.It is part of the town of Sinaia and is in the immediate vicinity of the famous Peleș Castle, the summer residence of the Romanian royal family between 1883 and 1947.",
           imageUrlA:
             "https://infoturismbreaza.ro/wp-content/uploads/2015/12/Manastirea-Sinaia.jpg",
         },
@@ -2915,7 +2933,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            "Established in 1990, with its own administration starting in 2003, the Domogled-Valea Cernei National Park is located in southwestern Romania and spans across 3 counties: Caraș-Severin, Mehedinți, and Gorj. The Domogled-Valea Cernei National Park is located in the eastern part of Caraș-Severin County, covering an area of 23,185 ha, and in the western part of Mehedinți County, covering an area of 8,220 ha, and respectively in the western part of Gorj County with an area of 29,806 ha. The presence of species and habitats of community interest has led to the designation, in the park area, of two Natura 2000 sites: the site of community importance ROSCI0069 Domogled-Valea Cernei and the avifaunal protection area ROSPA0035 Domogled-Valea Cernei. The boundaries of the three categories of protected areas do not overlap perfectly. The park also includes a number of natural reserves, whose delimitation was established by Law no. 5/2000.",
+            "Established in 1990, with its own administration starting in 2003, the Domogled-Valea Cernei National Park is located in southwestern Romania and spans across 3 counties: Caraș-Severin, Mehedinți, and Gorj. The Domogled-Valea Cernei National Park is located in the eastern part of Caraș-Severin County, covering an area of 23,185 ha, and in the western part of Mehedinți County",
           imageUrlA:
             "https://www.travelguideromania.com/ro/wp-content/uploads/2019/01/IMG_1779.jpg",
         },
@@ -2947,7 +2965,7 @@ const attractionsAndHotels = {
       attractions: [
         {
           descriptions:
-            " Red Ravine is a geological reservation located 3 km from Sebeș and is the most suitable place in the area for paragliding. Its fame comes from the reddish earth formations, which from the satellite resemble wrinkles. This can be observed as soon as you are near the destination. That is why some also call it the 'small canyon of Romania'. The formation process of the ravine is simple: through water erosion on the soil. This later led to considerable landslides. The result is visible even today, through the adventurous and attractive Red Ravine. Legends abound in this place, from dinosaurs discovered by archaeologists to stories of bandits, thieves, and adventurers of the area. You can also visit the 'Thieves Hole,' whose story is also part of the popular folklore. There is a trail called 'The Shoe,'which is said to be the most dangerous yet adrenaline-filled at the same time. It is located in the middle of the reservation and has the shape of a shoe, hence the name. It is not recommended for visiting due to the high level of danger.Include Red Ravine in your itinerary and I recommend going with an authorized climbing guide and having safety equipment!",
+            " Red Ravine is a geological reservation located 3 km from Sebeș and is the most suitable place in the area for paragliding. Its fame comes from the reddish earth formations, which from the satellite resemble wrinkles. This can be observed as soon as you are near the destination. That is why some also call it the 'small canyon of Romania'",
           imageUrlA:
             "https://zigzagprinromania.com/blog/wp-content/uploads/2016/09/rapa-rosie-sebes-4.jpg",
         },
@@ -2956,8 +2974,8 @@ const attractionsAndHotels = {
         {
           name: "Hotel YVY",
           id: "Hotel YVY",
-          category: "",
-          description: "",
+          category: "3-star",
+          description: "This property has told us they’re taking some steps towards sustainability that can have environmental and social impact. We’ve worked with experts including Travalyst and Sustainalize to create the Travel Sustainable programme – making it easier for you to experience the world more sustainably.",
           imageUrl:
             "https://cf.bstatic.com/xdata/images/hotel/max1024x768/462726300.jpg?k=51e4284e2342296a2876444150b18b16c66c36350ca44532f940c6c5f9b84da6&o=&hp=1",
           location: "61 Strada Mihail Kogălniceanu, 515800 Sebeş, România ",
@@ -3013,78 +3031,19 @@ const attractionsAndHotels = {
     },
     "Mănăstirea Sâmbăta de Sus": {
       id: "monasteries",
-      attractions: [{ descriptions: "", imageUrlA: "" }],
+      attractions: [{ 
+        descriptions: "The history of Brâncoveanu Monastery begins in the mid-17th century.At the foot of the Făgăraș Mountains, at an altitude of over 600 meters, Brâncoveanu Monastery – Sâmbăta de Sus is renowned as a place of retreat, comfort, and spiritual strengthening for the faithful and visitors who pray or sojourn at this holy place.", 
+        imageUrlA: "https://upload.wikimedia.org/wikipedia/commons/9/94/Sambata_IMG_5664.jpg" 
+      }],
       hotels: [
-        {
-          name: "Pensiunea Sâmbăta",
-          id: "Pensiunea Sâmbăta",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Sâmbăta offers cozy rooms and a peaceful setting near Mănăstirea Sâmbăta de Sus.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Mănăstirea Sâmbăta de Sus",
-          rating: 4.4,
-          reviewsCount: 2000,
-          price: "55",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 12,
-          dinner: true,
-          dinnerPrice: 16,
-        },
         {
           name: "Hotel Sâmbăta",
           id: "Hotel Sâmbăta",
-          category: "Hotel",
-          description:
-            "Hotel Sâmbăta offers comfortable rooms and a relaxing atmosphere near Mănăstirea Sâmbăta de Sus.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Mănăstirea Sâmbăta de Sus",
-          rating: 4.2,
-          reviewsCount: 1800,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 13,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-        {
-          name: "Vila Sâmbăta",
-          id: "Vila Sâmbăta",
-          category: "Villa",
-          description:
-            "Vila Sâmbăta offers cozy accommodation and a peaceful setting near Mănăstirea Sâmbăta de Sus.",
-          imageUrl: "URL_IMAGINE_VILA",
-          location: "Mănăstirea Sâmbăta de Sus",
-          rating: 4.0,
-          reviewsCount: 1600,
-          price: "65",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 11,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-      ],
-    },
-    "Rezervația naturală Cheile Bihorului": {
-      id: "nature",
-      attractions: [
-        // Descrierea atracțiilor din Rezervația naturală Cheile Bihorului
-      ],
-      hotels: [
-        {
-          name: "Pensiunea Cheile Bihorului",
-          id: "Pensiunea Cheile Bihorului",
           category: "Guesthouse",
           description:
-            "Pensiunea Cheile Bihorului offers cozy rooms and a peaceful setting near Rezervația naturală Cheile Bihorului.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Rezervația naturală Cheile Bihorului",
+            "Hotel Sâmbăta offers cozy rooms and a peaceful setting near Mănăstirea Sâmbăta de Sus.",
+          imageUrl: "https://img.directbooking.ro/getimage.ashx?w=880&h=660&file=c183ffcd-9f30-4fdc-ae39-efb7ea919020.jpg",
+          location: "Mănăstirea Sâmbăta de Sus",
           rating: 4.4,
           reviewsCount: 2000,
           price: "55",
@@ -3095,57 +3054,21 @@ const attractionsAndHotels = {
           dinner: true,
           dinnerPrice: 16,
         },
-        {
-          name: "Hotel Cheile Bihorului",
-          id: "Hotel Cheile Bihorului",
-          category: "Hotel",
-          description:
-            "Hotel Cheile Bihorului offers comfortable rooms and a relaxing atmosphere near Rezervația naturală Cheile Bihorului.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Rezervația naturală Cheile Bihorului",
-          rating: 4.2,
-          reviewsCount: 1800,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 13,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-        {
-          name: "Vila Cheile Bihorului",
-          id: "Vila Cheile Bihorului",
-          category: "Villa",
-          description:
-            "Vila Cheile Bihorului offers cozy accommodation and a peaceful setting near Rezervația naturală Cheile Bihorului.",
-          imageUrl: "URL_IMAGINE_VILA",
-          location: "Rezervația naturală Cheile Bihorului",
-          rating: 4.0,
-          reviewsCount: 1600,
-          price: "65",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 11,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-      ],
+      ]
     },
-
     "Biserica de lemn din Șurdești": {
       id: "monasteries",
-      attractions: [{}],
-      hotels: [
-        {
-          name: "Pensiunea Șurdești",
-          id: "Pensiunea Șurdești",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Șurdești offers cozy rooms and a peaceful setting near Biserica de lemn din Șurdești.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Biserica de lemn din Șurdești",
+      attractions: [{
+        descriptions:"The wooden church is a synthesis of the major architectures from Eastern and Western Europe, a fusion between the Byzantine background and Gothic forms, imprinted in an original interpretation by local craftsmen, the people who live in these lands!",
+        imageUrlA:"https://chioar.culturamm.ro/wp-content/uploads/2019/09/surdesti-florin-pop-1080x675.jpg",
+      }],
+      hotels: [{
+        name:"Pensiunea Amethys",
+          id: "Pensiunea Amethys",
+          category: "3-star",
+          description: "Pensiunea Șurdești offers cozy rooms and a peaceful setting near Biserica de lemn din Șurdești.",
+          imageUrl: "https://www.roturistic.ro/img/user/Surdesti_Amethyst/Surdesti_Amethyst_1685971281.30700588.jpg",
+          location: "Sat Șurdești, Str. Principală, Nr. 455",
           rating: 4.4,
           reviewsCount: 2000,
           price: "55",
@@ -3156,57 +3079,22 @@ const attractionsAndHotels = {
           dinner: true,
           dinnerPrice: 16,
         },
-        {
-          name: "Hotel Șurdești",
-          id: "Hotel Șurdești",
-          category: "Hotel",
-          description:
-            "Hotel Șurdești offers comfortable rooms and a relaxing atmosphere near Biserica de lemn din Șurdești.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Biserica de lemn din Șurdești",
-          rating: 4.2,
-          reviewsCount: 1800,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 13,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-        {
-          name: "Vila Șurdești",
-          id: "Vila Șurdești",
-          category: "Villa",
-          description:
-            "Vila Șurdești offers cozy accommodation and a peaceful setting near Biserica de lemn din Șurdești.",
-          imageUrl: "URL_IMAGINE_VILA",
-          location: "Biserica de lemn din Șurdești",
-          rating: 4.0,
-          reviewsCount: 1600,
-          price: "65",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 11,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-      ],
+      ]
     },
     "Cascada Moara Dracului": {
-      id: "",
-      attractions: [
-        // Descrierea atracțiilor din Cascada Moara Dracului
-      ],
+      id: "nature",
+      attractions: [{
+        descriptions:"The Moara Dracului Waterfall in the Bucegi Mountains is located in the western part of the massif, about 15 minutes above Poiana Gaura, where the Șimon River forms a waterfall of approximately 20 meters.",
+        imageUrlA:"https://lh3.googleusercontent.com/p/AF1QipN3t6PzwAfAUbIESI_HuqJ4nNDunC6UfbvS1scb=s1360-w1360-h1020",
+      } ],
       hotels: [
         {
-          name: "Pensiunea Moara Dracului",
-          id: "Pensiunea Moara Dracului",
-          category: "Guesthouse",
+          name: "Pensiunea Rustic House",
+          id: "Pensiunea Rustic House",
+          category: "2-star",
           description:
-            "Pensiunea Moara Dracului offers cozy rooms and a peaceful setting near Cascada Moara Dracului.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
+            "Pensiunea Rustic House offers cozy rooms and a peaceful setting near Cascada Moara Dracului.",
+          imageUrl: "https://images.cazare.online/unit_galleries/11534/summer/large/aa31194f451a71f790963517d53b890c_JEbGtM.jpeg",
           location: "Cascada Moara Dracului",
           rating: 4.4,
           reviewsCount: 2000,
@@ -3218,19 +3106,21 @@ const attractionsAndHotels = {
           dinner: true,
           dinnerPrice: 16,
         },
-      ],
+      ]
     },
     "Parcul Național Cozia": {
-      attractions: [
-        // Descrierea atracțiilor din Parcul Național Cozia
+      id:"nature",
+      attractions: [{
+        descriptions:"The Cozia National Park is a protected area located in Romania, in the southern part of the country, in the vicinity of the Cozia Monastery. It covers an area of ​​approximately 17,100 hectares and was established in 1966 to protect the natural and cultural heritage of the region.Is named after the Cozia Massif, which is part of the Southern Carpathians mountain range. ",
+        imageUrlA:"https://www.valceaturistica.ro/wp-content/uploads/cazare-valea-oltului/cabana-cozia/masivul-cozia-calimanesti-valcea.jpg",
+      }
       ],
       hotels: [
         {
           name: "Pensiunea Cozia",
           id: "Pensiunea Cozia",
           category: "Guesthouse",
-          description:
-            "Pensiunea Cozia offers cozy rooms and a peaceful setting near Parcul Național Cozia.",
+          description: "Pensiunea Cozia offers cozy rooms and a peaceful setting near Parcul Național Cozia.",
           imageUrl: "URL_IMAGINE_PENSIUNE",
           location: "Parcul Național Cozia",
           rating: 4.4,
@@ -3279,67 +3169,26 @@ const attractionsAndHotels = {
           dinner: true,
           dinnerPrice: 15,
         },
-      ],
-    },
-    "Biserica de lemn din Rogoz": {
-      attractions: [
-        // Descrierea atracțiilor din Biserica de lemn din Rogoz
-      ],
-      hotels: [
-        {
-          name: "Pensiunea Rogoz",
-          id: "Pensiunea Rogoz",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Rogoz offers cozy rooms and a peaceful setting near Biserica de lemn din Rogoz.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Biserica de lemn din Rogoz",
-          rating: 4.4,
-          reviewsCount: 2000,
-          price: "55",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 12,
-          dinner: true,
-          dinnerPrice: 16,
-        },
-        {
-          name: "Hotel Rogoz",
-          id: "Hotel Rogoz",
-          category: "Hotel",
-          description:
-            "Hotel Rogoz offers comfortable rooms and a relaxing atmosphere near Biserica de lemn din Rogoz.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Biserica de lemn din Rogoz",
-          rating: 4.2,
-          reviewsCount: 1800,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 13,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-      ],
+      ]
     },
     "Lacul Ochiul Beiului": {
-      attractions: [
-        // Descrierea atracțiilor din Lacul Ochiul Beiului
+      id:"nature",
+      attractions: [{
+        descriptions:"The Ochiul Beiului Lake is a stunningly beautiful place that is part of the Cheile Nerei – Beușnița National Park, a reserve known for its abundant vegetation, tranquility, waterfalls, and clean air, making it a perfect spot for a relaxing walk. The lake is a natural monument where the water is so clean that you can admire the fish swimming.",
+        imageUrlA:"https://upload.wikimedia.org/wikipedia/commons/2/2e/Ochiul_Bei_-_Romania_-_Landscape_photography_%2836595339891%29.jpg",
+      }
       ],
       hotels: [
         {
-          name: "Pensiunea Ochiul Beiului",
-          id: "Pensiunea Ochiul Beiului",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Ochiul Beiului offers cozy rooms and a peaceful setting near Lacul Ochiul Beiului.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Lacul Ochiul Beiului",
-          rating: 4.4,
-          reviewsCount: 2000,
-          price: "55",
+          name: "Pensiunea DORA SASCA",
+          id: "Pensiunea DORA SASCA",
+          category: "3-star",
+          description:"Pensiunea Ochiul Beiului offers cozy rooms and a peaceful setting near Lacul Ochiul Beiului.",
+          imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/129610480.jpg?k=49b1042d79ab52cee69b583e4a69840fdb19ba907f52555d7489ee0810140c61&o=&hp=1",
+          location: "Sasca Montana, Nr. 191, 327330 Sasca Montană",
+          rating: 9.3,
+          reviewsCount: 58,
+          price: "48",
           breakfast: true,
           breakfastPrice: 0,
           lunch: true,
@@ -3347,103 +3196,29 @@ const attractionsAndHotels = {
           dinner: true,
           dinnerPrice: 16,
         },
-        {
-          name: "Hotel Ochiul Beiului",
-          id: "Hotel Ochiul Beiului",
-          category: "Hotel",
-          description:
-            "Hotel Ochiul Beiului offers comfortable rooms and a relaxing atmosphere near Lacul Ochiul Beiului.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Lacul Ochiul Beiului",
-          rating: 4.2,
-          reviewsCount: 1800,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 13,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-        {
-          name: "Vila Ochiul Beiului",
-          id: "Vila Ochiul Beiului",
-          category: "Villa",
-          description:
-            "Vila Ochiul Beiului offers cozy accommodation and a peaceful setting near Lacul Ochiul Beiului.",
-          imageUrl: "URL_IMAGINE_VILA",
-          location: "Lacul Ochiul Beiului",
-          rating: 4.0,
-          reviewsCount: 1600,
-          price: "65",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 11,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-      ],
+      ]
     },
-    "Dealul Cetății din Alba Iulia": {
-      attractions: [
-        // Descrierea atracțiilor din Dealul Cetății din Alba Iulia
-      ],
-      hotels: [
-        {
-          name: "Pensiunea Cetății",
-          id: "Pensiunea Cetății",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Cetății offers cozy rooms and a peaceful setting near Dealul Cetății din Alba Iulia.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Dealul Cetății din Alba Iulia",
-          rating: 4.4,
-          reviewsCount: 2000,
-          price: "55",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 12,
-          dinner: true,
-          dinnerPrice: 16,
-        },
-        {
-          name: "Hotel Cetății",
-          id: "Hotel Cetății",
-          category: "Hotel",
-          description:
-            "Hotel Cetății offers comfortable rooms and a relaxing atmosphere near Dealul Cetății din Alba Iulia.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Dealul Cetății din Alba Iulia",
-          rating: 4.2,
-          reviewsCount: 1800,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 13,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-      ],
-    },
+ 
     "Rezervația naturală Cheile Tureni": {
-      attractions: [
-        // Descrierea atracțiilor din Rezervația naturală Cheile Turului
+      id:"nature",
+      attractions: [{
+        imageUrlA:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Cheile_Tureniului_HDR.jpg/1200px-Cheile_Tureniului_HDR.jpg",
+        descriptions:"Cheile Turului,is a protected area of national interest corresponding to the IUCN category IV. It covers an area of 25 hectares and is located north of the city of Turda. From the Dacian and Roman periods, a small dwelling from the 1st century BC - 1st century AD was discovered, as well as several observation points related to the Roman Castrum at Potaissa.",
+      }
+       
       ],
       hotels: [
         {
-          name: "Pensiunea Cheile Tureni",
-          id: "Pensiunea Cheile Tureni",
+          name: "Thome Exclusive Cuvee Turda",
+          id: "Thome Exclusive Cuvee Turda",
           category: "Guesthouse",
           description:
-            "Pensiunea Cheile Turului offers cozy rooms and a peaceful setting near Rezervația naturală Cheile Turului.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Rezervația naturală Cheile Turului",
-          rating: 4.4,
-          reviewsCount: 2000,
-          price: "55",
+            "Thome Exclusive Cuvee  offers cozy rooms and a peaceful setting near Rezervația naturală Cheile Turului.",
+          imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/411128020.jpg?k=acbfbc1f06d5302e2402add40c402278e636b8c7d6cc750aefdb6e1043de1a35&o=&hp=1",
+          location: "8 Strada Avram Iancu, 401096 Turda",
+          rating: 9.7,
+          reviewsCount: 183,
+          price: "50",
           breakfast: true,
           breakfastPrice: 0,
           lunch: true,
@@ -3451,81 +3226,27 @@ const attractionsAndHotels = {
           dinner: true,
           dinnerPrice: 16,
         },
-        {
-          name: "Hotel Cheile Turului",
-          id: "Hotel Cheile Turului",
-          category: "Hotel",
-          description:
-            "Hotel Cheile Turului offers comfortable rooms and a relaxing atmosphere near Rezervația naturală Cheile Tureni",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Rezervația naturală Cheile Turului",
-          rating: 4.2,
-          reviewsCount: 1800,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 13,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-      ],
-    },
-    Surdesti: {
-      attractions: [],
-      hotels: [
-        {
-          name: "Pensiunea Surdești",
-          id: "Pensiunea Surdești",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Surdești offers comfortable rooms and a traditional experience near the Wooden Church of Surdești.",
-          imageUrl: "IMAGE_URL_GUESTHOUSE",
-          location: "Surdești",
-          rating: 4.5,
-          reviewsCount: 2100,
-          price: "60",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 12,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-        {
-          name: "Hotel Surdești",
-          id: "Hotel Surdești",
-          category: "Hotel",
-          description:
-            "Hotel Surdești offers modern accommodations and a convenient location near the Wooden Church of Surdești.",
-          imageUrl: "IMAGE_URL_HOTEL",
-          location: "Surdești",
-          rating: 4.3,
-          reviewsCount: 1900,
-          price: "80",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 15,
-          dinner: true,
-          dinnerPrice: 20,
-        },
-      ],
+      ]
     },
     "Sâmbăta de Sus": {
-      attractions: [],
+      idd:"monasteries",
+      attractions: [{
+        descriptions:"The Sâmbăta de Sus Monastery is an Orthodox monastery. It was built in 1657 at the initiative of the vornic Preda Brâncoveanu. The interior paintings of the monastery were executed by the painters Ionașcu and Pană in 1766. Unfortunately, in 1785, the church was demolished by the cannons of the Habsburg general Preiss during the religious uprisings in Transylvania.",
+        imageUrlA:"https://fermoar.ro/storage/2022/05/unde-si-cand-manastirea-sambata-de-sus-sambata-de-sus-brasov.png",
+      }
+
+      ],
       hotels: [
         {
           name: "Pensiunea Sâmbăta",
           id: "Pensiunea Sâmbăta",
           category: "Guesthouse",
-          description:
-            "Pensiunea Sâmbăta offers comfortable rooms and a peaceful setting near the Sâmbăta de Sus Monastery.",
-          imageUrl: "IMAGE_URL_GUESTHOUSE",
+          description: "Pensiunea Sâmbăta offers comfortable rooms and a peaceful setting near the Sâmbăta de Sus Monastery.",
+          imageUrl: "https://collections.kerengo.ro/i/t/1546496/pensiune-sambata-de-sus-44.webp",
           location: "Sâmbăta de Sus",
           rating: 4.4,
           reviewsCount: 2000,
-          price: "55",
+          price: "50",
           breakfast: true,
           breakfastPrice: 0,
           lunch: true,
@@ -3533,41 +3254,25 @@ const attractionsAndHotels = {
           dinner: true,
           dinnerPrice: 16,
         },
-        {
-          name: "Hotel Diana",
-          id: "Hotel Diana",
-          category: "Hotel",
-          description:
-            "Hotel Diana offers modern accommodations and a convenient location near the Sâmbăta de Sus Monastery.",
-          imageUrl: "IMAGE_URL_HOTEL",
-          location: "Sâmbăta de Sus",
-          rating: 4.2,
-          reviewsCount: 1800,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 13,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-      ],
+      ]
     },
     "Lacul Paltinu": {
-      attractions: [
-        // Descrierea atracțiilor de la Lacul Paltinu
-      ],
+      id:"nature",
+      attractions: [{
+        descriptions:"If you want to experience the feeling of floating in a kayak on emerald waters, check out the kayak tours on Lake Paltinu and find out when the next tour is scheduled. You can opt for a picnic in nature with packed snacks or use the installed grills to prepare your meal.",
+        imageUrlA:"https://octeus.ro/wp-content/uploads/2018/04/paltinu-800x800px.jpg",
+      }],
       hotels: [
         {
-          name: "Pensiunea Paltinu",
-          id: "Pensiunea Paltinu",
-          category: "Guesthouse",
+          name: "Pensiunea Atra Doftana",
+          id: "Pensiunea Atra Doftana",
+          category: "5-star",
           description:
             "Pensiunea Paltinu offers comfortable rooms with a view of Lacul Paltinu.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Lacul Paltinu",
-          rating: 4.0,
-          reviewsCount: 1200,
+          imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/343113289.jpg?k=7be091c440ad025841aba83ab65703927813804baacc47e1cffbde5825126a42&o=&hp=1",
+          location: "Fundatura Cerbului 780B, 107640 Teşila",
+          rating: 9.0,
+          reviewsCount: 278,
           price: "55",
           breakfast: true,
           breakfastPrice: 0,
@@ -3576,43 +3281,26 @@ const attractionsAndHotels = {
           dinner: false,
           dinnerPrice: 0,
         },
-        {
-          name: "Cabana Veverita",
-          id: "Cabana Veverita",
-          category: "Chalet",
-          description:
-            "Cabana Veverita offers rustic accommodation with a scenic view near Lacul Paltinu.",
-          imageUrl: "URL_IMAGINE_CABANA",
-          location: "Lacul Paltinu",
-          rating: 3.8,
-          reviewsCount: 1000,
-          price: "50",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-      ],
+      ]
     },
 
     "Cheile Corcoaiei": {
-      attractions: [
-        // Descrierea atracțiilor de la Cheile Corcoaiei
-      ],
+      id:"nature",
+      attractions: [{
+        descriptions:"The Corcoaia Gorges in the Padeș commune are another natural attraction of Gorj County, located near the village of Cernat-Sat. They are part of the Somogled-Valea Cernei National Park, designated as a natural reserve and protected area by law. The reserve covers 34 hectares, but the gorges themselves measure around 300 meters.",
+        imageUrlA:"https://povestea-locurilor.ro/wp-content/uploads/2018/09/Cheile-CORCOAIEI-2-960x720.jpg",
+      }],
       hotels: [
         {
           name: "Hotel Cheile Cetății",
           id: "Hotel Cheile Cetății",
           category: "3-star",
-          description:
-            "Hotel Cheile Cetății offers comfortable rooms and a relaxing atmosphere near Cheile Corcoaiei.",
-          imageUrl: "URL_IMAGINE_HOTEL",
+          description: "Hotel Cheile Cetății offers comfortable rooms and a relaxing atmosphere near Cheile Corcoaiei.",
+          imageUrl: "https://maidanube.ro/wp-content/uploads/2023/03/Cazare-Eselnita-Cazare-Clisura-Dun%C4%83rii-Pensiunea-Mai-Danube-17.jpg",
           location: "Cheile Corcoaiei",
-          rating: 4.2,
-          reviewsCount: 1800,
-          price: "70",
+          rating: 9.2,
+          reviewsCount: 180,
+          price: "40",
           breakfast: true,
           breakfastPrice: 0,
           lunch: true,
@@ -3620,74 +3308,14 @@ const attractionsAndHotels = {
           dinner: true,
           dinnerPrice: 15,
         },
-        {
-          name: "Hotel Conacu Boierului",
-          id: "Hotel Conacu Boierului",
-          category: "4-star",
-          description:
-            "Hotel Conacu Boierului offers luxurious accommodation near Cheile Corcoaiei.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Cheile Corcoaiei",
-          rating: 4.5,
-          reviewsCount: 2000,
-          price: "60",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 15,
-          dinner: true,
-          dinnerPrice: 20,
-        },
-      ],
-    },
-
-    "Cheile Runcului": {
-      attractions: [
-        // Descrierea atracțiilor de la Cheile Runcului
-      ],
-      hotels: [
-        {
-          name: "Pensiunea Runcului",
-          id: "Pensiunea Runcului",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Runcului offers cozy rooms and a peaceful environment near Cheile Runcului.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Cheile Runcului",
-          rating: 4.0,
-          reviewsCount: 1000,
-          price: "50",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: false,
-          lunchPrice: 0,
-          dinner: false,
-          dinnerPrice: 0,
-        },
-        {
-          name: "Hotel Runcului",
-          id: "Hotel Runcului",
-          category: "3-star",
-          description:
-            "Hotel Runcului offers comfortable rooms and a welcoming atmosphere near Cheile Runcului.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Cheile Runcului",
-          rating: 4.2,
-          reviewsCount: 1200,
-          price: "60",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-      ],
+      ]
     },
     "Cetatea Neamțului": {
-      attractions: [
-        // Descrierea atracțiilor de la Cetatea Neamțului
-      ],
+      id:"fortresses",
+      attractions: [{
+        imageUrlA:"https://viza.md/sites/default/files/images/cetatea_neamt.jpg",
+        descriptions:"Neamț Fortresses, is a medieval fortress in Moldavia, located near the town of Târgu Neamt,the citadel is part of Romania's exceptional medieval monuments. Its strategic position and presence in significant events in this part of the country demonstrate that Neamț Citadel was one of the best-fortified fortresses of medieval Moldavia.",
+      } ],
       hotels: [
         {
           name: "Pensiunea “La Cetate”",
@@ -3695,11 +3323,11 @@ const attractionsAndHotels = {
           category: "Guesthouse",
           description:
             "Pensiunea “La Cetate” offers cozy rooms and a charming atmosphere near Cetatea Neamțului.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
+          imageUrl: "https://lh3.googleusercontent.com/p/AF1QipOLcFrLCYlYUMVSMqCOV9FdixEKO4YOXQpVBreO=w574-h384-n-k-rw-no-v1",
           location: "Cetatea Neamțului",
-          rating: 4.0,
-          reviewsCount: 1000,
-          price: "50",
+          rating: 3.5,
+          reviewsCount: 1330,
+          price: "60",
           breakfast: true,
           breakfastPrice: 0,
           lunch: false,
@@ -3708,15 +3336,15 @@ const attractionsAndHotels = {
           dinnerPrice: 0,
         },
         {
-          name: "Hotel Oscar",
-          id: "Hotel Oscar",
+          name: "TESA Boutique Hotel",
+          id: "TESA Boutique Hotel",
           category: "3-star",
           description:
             "Hotel Oscar offers comfortable rooms and a convenient location near Cetatea Neamțului.",
-          imageUrl: "URL_IMAGINE_HOTEL",
+          imageUrl: "https://lh3.googleusercontent.com/p/AF1QipPWscQhZf3Ym_72fJ9DfGF_N4d1A1Okv8ucq5uS=w574-h384-n-k-rw-no-v1",
           location: "Cetatea Neamțului",
-          rating: 4.2,
-          reviewsCount: 1200,
+          rating: 4.9,
+          reviewsCount: 89,
           price: "60",
           breakfast: true,
           breakfastPrice: 0,
@@ -3725,84 +3353,25 @@ const attractionsAndHotels = {
           dinner: true,
           dinnerPrice: 15,
         },
-        {
-          name: "Pensiunea Aristocratic",
-          id: "Pensiunea Aristocratic",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Aristocratic offers comfortable rooms and a traditional atmosphere near Cetatea Neamțului.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Cetatea Neamțului",
-          rating: 4.5,
-          reviewsCount: 1500,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 12,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-      ],
-    },
-    "Lacul Sărat din Ocna Sibiului": {
-      attractions: [
-        // Descrierea atracțiilor de la Lacul Sărat din Ocna Sibiului
-      ],
-      hotels: [
-        {
-          name: "Pensiunea Sărat",
-          id: "Pensiunea Sărat",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Sărat offers cozy rooms and a peaceful environment near Lacul Sărat din Ocna Sibiului.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Lacul Sărat din Ocna Sibiului",
-          rating: 4.0,
-          reviewsCount: 1000,
-          price: "50",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: false,
-          lunchPrice: 0,
-          dinner: false,
-          dinnerPrice: 0,
-        },
-        {
-          name: "Vila Sărat",
-          id: "Vila Sărat",
-          category: "Villa",
-          description:
-            "Vila Sărat offers modern accommodation and a relaxing atmosphere near Lacul Sărat din Ocna Sibiului.",
-          imageUrl: "URL_IMAGINE_VILA",
-          location: "Lacul Sărat din Ocna Sibiului",
-          rating: 4.5,
-          reviewsCount: 1500,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 12,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-      ],
+      ]
     },
     "Biserica de lemn din Bârsana": {
-      attractions: [
-        // Descrierea atracțiilor de la Biserica de lemn din Bârsana
-      ],
+      id:"monasteries",
+      attractions: [{
+        imageUrlA:"https://casatand.ro/wp-content/uploads/2019/04/manastirea-barsana_10929069.jpg",
+        descriptions:"The restoration in 1997 of the 'Entrance of the Mother of God into the Church'church in Bârsana provided the opportunity for scientific research (dendrochronological studies) that confirmed the old stories of the locals suggesting that the church was moved not once, but twice, during its existence. (Short History by parish priest Dăncuș Grigore, 1969).",
+      }],
       hotels: [
         {
-          name: "Pensiunea Bârsana",
-          id: "Pensiunea Bârsana",
+          name: "Acasa la Tulucu",
+          id: "Acasa la Tulucu",
           category: "Guesthouse",
           description:
             "Pensiunea Bârsana offers cozy rooms and a traditional atmosphere near Biserica de lemn din Bârsana.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Biserica de lemn din Bârsana",
-          rating: 4.0,
-          reviewsCount: 1000,
+          imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/472602229.jpg?k=034ddedf0b72568822c025f51ff85868c80a257006d20847fc7c99dfe65d1b7d&o=&hp=1",
+          location: " Strada Principală, 437035 Bîrsana,",
+          rating: 9.7,
+          reviewsCount: 28,
           price: "50",
           breakfast: true,
           breakfastPrice: 0,
@@ -3811,417 +3380,25 @@ const attractionsAndHotels = {
           dinner: false,
           dinnerPrice: 0,
         },
-        {
-          name: "Hotel Bârsana",
-          id: "Hotel Bârsana",
-          category: "3-star",
-          description:
-            "Hotel Bârsana offers comfortable rooms and a welcoming atmosphere near Biserica de lemn din Bârsana.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Biserica de lemn din Bârsana",
-          rating: 4.2,
-          reviewsCount: 1200,
-          price: "60",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-      ],
+      ]
     },
     "Parcul Național Apuseni": {
-      attractions: [
-        // Descrierea atracțiilor de la Parcul Național Apuseni
-      ],
+      id:"nature",
+      attractions: [{
+        descriptions:"The Apuseni Natural Park covers an area of 75,784 hectares and was awarded as a tourist destination of excellence in 2009. It is located in the Apuseni Mountains region of Romania and offers a variety of activities for tourists, including hiking trails, cave exploration, visiting traditional villages, and admiring spectacular natural landscapes.",
+        imageUrlA:"https://www.panacomp.net/wp-content/uploads/2015/09/romanian-landscape-carpathian-romanian-mountains-apuseni-470x353.jpg",
+      }],
       hotels: [
         {
-          name: "Pensiunea Apuseni",
-          id: "Pensiunea Apuseni",
+          name: "Casa Matei Beliș",
+          id: "Casa Matei Beliș",
           category: "Guesthouse",
           description:
             "Pensiunea Apuseni offers cozy rooms and a charming atmosphere near Parcul Național Apuseni.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
+          imageUrl: "https://i.szalas.hu/hotels/1464428/500x500/38704344.webp",
           location: "Parcul Național Apuseni",
-          rating: 4.0,
-          reviewsCount: 1000,
-          price: "50",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: false,
-          lunchPrice: 0,
-          dinner: false,
-          dinnerPrice: 0,
-        },
-        {
-          name: "Hotel Apuseni",
-          id: "Hotel Apuseni",
-          category: "3-star",
-          description:
-            "Hotel Apuseni offers comfortable rooms and a convenient location near Parcul Național Apuseni.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Parcul Național Apuseni",
-          rating: 4.2,
-          reviewsCount: 1200,
-          price: "60",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-      ],
-    },
-
-    "Castelul Teleki din Gornești": {
-      attractions: [
-        // Descrierea atracțiilor de la Castelul Teleki din Gornești
-      ],
-      hotels: [
-        {
-          name: "Pensiunea Teleki",
-          id: "Pensiunea Teleki",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Teleki offers cozy rooms and a charming atmosphere near Castelul Teleki din Gornești.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Castelul Teleki din Gornești",
-          rating: 4.0,
-          reviewsCount: 1000,
-          price: "50",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: false,
-          lunchPrice: 0,
-          dinner: false,
-          dinnerPrice: 0,
-        },
-        {
-          name: "Hotel Teleki",
-          id: "Hotel Teleki",
-          category: "3-star",
-          description:
-            "Hotel Teleki offers comfortable rooms and a convenient location near Castelul Teleki din Gornești.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Castelul Teleki din Gornești",
-          rating: 4.2,
-          reviewsCount: 1200,
-          price: "60",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-        {
-          name: "Vila Teleki",
-          id: "Vila Teleki",
-          category: "Villa",
-          description:
-            "Vila Teleki offers modern accommodation and a relaxing atmosphere near Castelul Teleki din Gornești.",
-          imageUrl: "URL_IMAGINE_VILA",
-          location: "Castelul Teleki din Gornești",
-          rating: 4.5,
-          reviewsCount: 1500,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 12,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-      ],
-    },
-
-    "Muzeul de Artă din Craiova": {
-      attractions: [
-        // Descrierea atracțiilor de la Muzeul de Artă din Craiova
-      ],
-      hotels: [
-        {
-          // Fără informații despre hoteluri pentru Muzeul de Artă din Craiova
-        },
-      ],
-    },
-    "Cascada Cailor": {
-      attractions: [
-        // Descrierea atracțiilor de la Cascada Cailor
-      ],
-      hotels: [
-        {
-          name: "Pensiunea Cascada Cailor",
-          id: "Pensiunea Cascada Cailor",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Cascada Cailor offers cozy rooms and a charming atmosphere near Cascada Cailor.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Cascada Cailor",
-          rating: 4.0,
-          reviewsCount: 1000,
-          price: "50",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: false,
-          lunchPrice: 0,
-          dinner: false,
-          dinnerPrice: 0,
-        },
-        {
-          name: "Hotel Cascada Cailor",
-          id: "Hotel Cascada Cailor",
-          category: "3-star",
-          description:
-            "Hotel Cascada Cailor offers comfortable rooms and a convenient location near Cascada Cailor.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Cascada Cailor",
-          rating: 4.2,
-          reviewsCount: 1200,
-          price: "60",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-        {
-          name: "Vila Cascada Cailor",
-          id: "Vila Cascada Cailor",
-          category: "Villa",
-          description:
-            "Vila Cascada Cailor offers modern accommodation and a relaxing atmosphere near Cascada Cailor.",
-          imageUrl: "URL_IMAGINE_VILA",
-          location: "Cascada Cailor",
-          rating: 4.5,
-          reviewsCount: 1500,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 12,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-      ],
-    },
-    "Plaja Vadu": {
-      attractions: [
-        // Descrierea atracțiilor de la Plaja Vadu
-      ],
-      hotels: [
-        {
-          name: "Pensiunea Vadu",
-          id: "Pensiunea Vadu",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Vadu offers cozy rooms and a charming atmosphere near Plaja Vadu.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Plaja Vadu",
-          rating: 4.0,
-          reviewsCount: 1000,
-          price: "50",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: false,
-          lunchPrice: 0,
-          dinner: false,
-          dinnerPrice: 0,
-        },
-        {
-          name: "Hotel Vadu",
-          id: "Hotel Vadu",
-          category: "3-star",
-          description:
-            "Hotel Vadu offers comfortable rooms and a convenient location near Plaja Vadu.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Plaja Vadu",
-          rating: 4.2,
-          reviewsCount: 1200,
-          price: "60",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-        {
-          name: "Vila Vadu",
-          id: "Vila Vadu",
-          category: "Villa",
-          description:
-            "Vila Vadu offers modern accommodation and a relaxing atmosphere near Plaja Vadu.",
-          imageUrl: "URL_IMAGINE_VILA",
-          location: "Plaja Vadu",
-          rating: 4.5,
-          reviewsCount: 1500,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 12,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-      ],
-    },
-    "Cazinoul din Constanța": {
-      attractions: [{}],
-      hotels: [
-        {
-          name: "Pensiunea Cazinoului",
-          id: "Pensiunea Cazinoului",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Cazinoului offers cozy rooms and a charming atmosphere near Cazinoul din Constanța.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Cazinoul din Constanța",
-          rating: 4.0,
-          reviewsCount: 1000,
-          price: "50",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: false,
-          lunchPrice: 0,
-          dinner: false,
-          dinnerPrice: 0,
-        },
-        {
-          name: "Hotel Cazinoului",
-          id: "Hotel Cazinoului",
-          category: "3-star",
-          description:
-            "Hotel Cazinoului offers comfortable rooms and a convenient location near Cazinoul din Constanța.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Cazinoul din Constanța",
-          rating: 4.2,
-          reviewsCount: 1200,
-          price: "60",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-        {
-          name: "Vila Cazinoului",
-          id: "Vila Cazinoului",
-          category: "Villa",
-          description:
-            "Vila Cazinoului offers modern accommodation and a relaxing atmosphere near Cazinoul din Constanța.",
-          imageUrl: "URL_IMAGINE_VILA",
-          location: "Cazinoul din Constanța",
-          rating: 4.5,
-          reviewsCount: 1500,
-          price: "70",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 12,
-          dinner: true,
-          dinnerPrice: 18,
-        },
-      ],
-    },
-    "Palatul Culturii din Iași": {
-      attractions: [
-        // Descrierea atracțiilor de la Palatul Culturii din Iași
-      ],
-      hotels: [
-        {
-          name: "Pensiunea Palatului Culturii",
-          id: "Pensiunea Palatului Culturii",
-          category: "Guesthouse",
-          description:
-            "Pensiunea Palatului Culturii offers cozy rooms and a charming atmosphere near Palatul Culturii din Iași.",
-          imageUrl: "URL_IMAGINE_PENSIUNE",
-          location: "Palatul Culturii din Iași",
-          rating: 4.0,
-          reviewsCount: 1000,
-          price: "50",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: false,
-          lunchPrice: 0,
-          dinner: false,
-          dinnerPrice: 0,
-        },
-        {
-          name: "Hotel Palatul Culturii",
-          id: "Hotel Palatul Culturii",
-          category: "3-star",
-          description:
-            "Hotel Palatul Culturii offers comfortable rooms and a convenient location near Palatul Culturii din Iași.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Palatul Culturii din Iași",
-          rating: 4.2,
-          reviewsCount: 1200,
-          price: "60",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: true,
-          lunchPrice: 10,
-          dinner: true,
-          dinnerPrice: 15,
-        },
-      ],
-    },
-    "Palatul Parlamentului Bucuresti": {
-      attractions: [
-        // Descrierea atracțiilor din zona Palatului Parlamentului
-      ],
-      hotels: [
-        {
-          name: "JW Marriott Bucharest Grand Hotel",
-          id: "JW Marriott Bucharest Grand Hotel",
-          category: "5-star",
-          description:
-            "Luxurious hotel located near the Palace of the Parliament in Bucharest.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Bucharest",
-          rating: 8.5,
-          reviewsCount: 1618,
-          price: "80",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: false,
-          lunchPrice: 0,
-          dinner: false,
-          dinnerPrice: 0,
-        },
-        {
-          name: "Central Hotel, Trademark Collection by Wyndham",
-          id: "Central Hotel, Trademark Collection by Wyndham",
-          category: "4-star",
-          description:
-            "Comfortable hotel located in Sector 5, Bucharest, offering great value.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Bucharest",
-          rating: 8.0,
-          reviewsCount: 1148,
-          price: "90",
-          breakfast: true,
-          breakfastPrice: 0,
-          lunch: false,
-          lunchPrice: 0,
-          dinner: false,
-          dinnerPrice: 0,
-        },
-        {
-          name: "Hotel Venezia by Zeus International",
-          id: "Hotel Venezia by Zeus International",
-          category: "3-star",
-          description:
-            "Cozy hotel in Bucharest, ranked 3rd in popularity near the Palace of the Parliament.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Bucharest",
-          rating: 8.0,
-          reviewsCount: 1148,
+          rating: 10,
+          reviewsCount: 10,
           price: "100",
           breakfast: true,
           breakfastPrice: 0,
@@ -4230,53 +3407,141 @@ const attractionsAndHotels = {
           dinner: false,
           dinnerPrice: 0,
         },
-      ],
+      ]
     },
-    "Hanul Pescaresc": {
-      attractions: [
-        {
-          imageUrl: " https://i.szalas.hu/hotels/474975/500x500/39479619.webp",
-          description: "",
-        },
-      ],
+    "Castelul Teleki din Gornești": {
+      id:"castles",
+      attractions:[{      
+     descriptions:"Gornești is documented under the name Knezeg in 1319 when King Charles I of Anjou donated the domain to the voivode of Transylvania, Széchenyi Tamás.Erdélyi István built a medieval castle with five towers here between 1462 and 1465, surrounded by a defensive moat supplied with water from the Mureș River.",
+        imageUrlA:"https://www.informatii-romania.ro/wp-content/uploads/2016/11/2teleki.jpg",
+      } ],
       hotels: [
         {
-          name: "Complex turistic Han Pescaresc",
-          id: "Complex turistic Han Pescaresc",
-          category: "4-star",
+          name: "Pensiunea Teleki",
+          id: "Pensiunea Teleki",
+          category: "Guesthouse",
           description:
-            "Han Pescăresc is located in the village of Câmpu Cetății, in the commune of Eremitu, Mureș County, 15 km away from Sovata.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Eremitu",
-          rating: 9.1,
-          reviewsCount: 1108,
-          price: "95",
+            "Pensiunea Teleki offers cozy rooms and a charming atmosphere near Castelul Teleki din Gornești.",
+          imageUrl: "https://images.helloromania.com/cazare-gornesti/pensiunea-grandlion-gornesti-733/pensiunea-grandlion-335dd2-original.jpg?width=950&aspect_ratio=5:3",
+          location: "Castelul Teleki din Gornești",
+          rating: 4.0,
+          reviewsCount: 180,
+          price: "40",
           breakfast: true,
           breakfastPrice: 0,
           lunch: false,
-          lunchPrice: 14,
+          lunchPrice: 0,
           dinner: false,
-          dinnerPrice: 21,
+          dinnerPrice: 0,
         },
+      ]
+    },
+    "Muzeul de Artă din Craiova": {
+      id:"museums",
+      attractions: [{
+        descriptions:"The Art Museum in Craiova is a county museum located at 15 Calea Unirii in Craiova. Founded in 1908 under the name 'Alexandru and Aristia Aman Art Gallery,' it became the Craiova Art Museum in 1954.",
+        imageUrlA:"https://vatra-mcp.ro/wp-content/uploads/2022/04/Muzeul-de-Arta-Craiova.jpg",
+      } ],
+          hotels: [
+            {
+              name: "Prestige Boutique Hotel Craiova",
+              id: "Prestige Boutique Hotel Craiova",
+              category: "4-star",
+              description:
+                "Prestige Boutique Hotel Craiovaoffers cozy rooms and a charming atmosphere near Castelul Teleki din Gornești.",
+              imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1280x900/292171907.jpg?k=6ef5e19f1c1b309b24617d9a7ce5bc1c4c0b0ff880e5c798efa425a248a9ee0a&o=&hp=1",
+              location: "Str. Matei Basarab, Nr.15, 200760",
+              rating: 9.1,
+              reviewsCount: 1284,
+              price: "57",
+              breakfast: true,
+              breakfastPrice: 0,
+              lunch: false,
+              lunchPrice: 0,
+              dinner: false,
+              dinnerPrice: 0,
+        }
+      ]
+    },
+    "Cascada Cailor": {
+      id:"nature",
+      attractions: [{
+        imageUrlA:"https://aventurainromania.ro/wp-content/uploads/2022/06/50_Cascada_Cailor.jpg",
+        descriptions:"The Cailor Waterfall is located near the tourist resort of Borșa, in the northeastern part of the Rodna Mountains. The water collected in a glacial cirque flows over a limestone cliff called 'Podul Cailor' in several steps, resulting in the largest waterfall in Romania.",
+      }],
+      hotels: [
         {
-          name: "Casa Hărșan",
-          id: "Casa Hărșan",
-          category: "4-star",
+          name: "Pensiunea Alexandra Livia ",
+          id: "Pensiunea Alexandra Livia",
+          category: "Guesthouse",
           description:
-            "Casa Hărșan is located in Sovata and offers accommodation with free WiFi, a swimming pool, a garden, a shared lounge, and pool views. Private parking is available on site.",
-          imageUrl: "URL_IMAGINE_HOTEL",
-          location: "Eremitu",
-          rating: 9.9,
-          reviewsCount: 1148,
-          price: "90",
+            "Pensiunea Alexandra Livia offers cozy rooms and a charming atmosphere near Cascada Cailor.",
+          imageUrl: "https://imgfl.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/partner-images/21/9c/46764af74ee05f589408b1a8aebd61feffd1d5a1796bfa528e643b80f1bc.jpeg",
+          location: "Cascada Cailor",
+          rating: 4.0,
+          reviewsCount: 1000,
+          price: "50",
           breakfast: true,
           breakfastPrice: 0,
           lunch: false,
-          lunchPrice: 15,
+          lunchPrice: 0,
           dinner: false,
-          dinnerPrice: 20,
+          dinnerPrice: 0,
         },
-      ],
+       ]
+    },
+    "Cazinoul din Constanța": {
+      id:"museums",
+      attractions: [{
+     descriptions:"It is one of the city's iconic landmarks, built in 1909 and inaugurated on August 15, 1910.The Casino in Constanța is undoubtedly the emblem of the city. An imposing building that still exudes the air of its glory days, the Casino has been watching over the Black Sea shore for over 130 years.",
+     imageUrlA:"https://localtrust.ro/storage/gallery/2344/lg/Cazino-Constanta.jpg",
+      }],
+      hotels: [
+        {
+          name: "Maritimo Luxury ApartHotel ",
+          id: "Maritimo Luxury ApartHotel",
+          category: "4-star",
+          description:"Maritimo Luxury ApartHotel is located in Constanța, a 2-minute walk from Modern Beach and 800 meters from Aloha Beach, offering air-conditioned accommodations with city views and free WiFi.",
+          imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/263654697.jpg?k=f2c8e94884ad6b31558faa6ec3ce7a777c742a64ff4463bed3a43a2ba5547bb7&o=&hp=1",
+          location: "39 Strada Mircea cel Bătrân etaj 5, 900178 Constanţa",
+          rating: 9.4,
+          reviewsCount:2487,
+          price: "100",
+          breakfast: true,
+          breakfastPrice: 0,
+          lunch: false,
+          lunchPrice: 0,
+          dinner: false,
+          dinnerPrice: 0,
+        },
+      ]
+    },
+    "Palatul Culturii din Iași": {
+      id:"museums",
+      attractions: [{
+     descriptions:"TThe Palace of Culture in Iași is an emblematic building, constructed between 1906 and 1925, within the former medieval Moldavian princely court, on the site of the former princely palace. The building is listed as a historical monument.",
+      imageUrlA:"https://img.oastatic.com/img2/46160615/max/variant.jpg",
+      } ],
+      hotels: [
+        {
+          name: "Central View Apartment",
+          id: "Central View Apartment",
+          category: "Guesthouse",
+          description:
+            "Central View Apartment offers cozy rooms and a charming atmosphere near Palatul Culturii din Iași.",
+          imageUrl: "https://cf.bstatic.com/xdata/images/hotel/max1024x768/529014127.jpg?k=6c7c58b706f27e1e6537de2380f542c6397d96d48b49f44fb5449dbb79c8d1c8&o=&hp=1",
+          location: "64 Strada Costache Negri 33, 700070 Iaşi",
+          rating: 9.8,
+          reviewsCount: 82,
+          price: "100",
+          breakfast: true,
+          breakfastPrice: 0,
+          lunch: false,
+          lunchPrice: 0,
+          dinner: false,
+          dinnerPrice: 0,
+        },
+      ]
     },
   },
 };

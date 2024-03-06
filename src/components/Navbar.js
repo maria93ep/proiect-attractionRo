@@ -1,4 +1,3 @@
-// Navbar.js
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -20,7 +19,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-nav">
         <Link to="/blog" className="nav-link" style={{ color: 'white', marginRight: '10px' }}>Blog</Link>
-        <Link to="/favorites" className="nav-link" style={{ color: 'white', marginRight: '10px' }}>Favorites</Link>
+       
         <Link to="/about" className="nav-link" style={{ color: 'white', marginRight: '10px' }}>About</Link>
         <a href="https://www.vola.ro/bilete-avion/" className="nav-link btn" style={{ whiteSpace: 'nowrap' }}>Book Your Flight</a>
       </div>

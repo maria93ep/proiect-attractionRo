@@ -77,7 +77,6 @@ Whether you're traveling solo, as a couple, or with family, our team will tailor
           </div>
         </div>
         <h2 className="mt-5 mb-4 text-center">Contact Us</h2>
-        <p className="text-center">Get in touch with us to start planning your next vacation! Whether you have a specific destination in mind or need help choosing the perfect getaway, our team is here to help.</p>
        
         <Footer />
       </div>

@@ -1,3 +1,4 @@
+
 import React from 'react';
 import CardLocation from './CardLocation';
 
@@ -7,7 +8,7 @@ const LocationList = ({ locations }) => {
   return (
     <div className="row">
       {locationKeys.map((locationKey, index) => (
-        <div key={index} className="col-md-6">
+        <div key={index} className="col-md-4">
           <CardLocation {...locations[locationKey]} />
         </div>
       ))}

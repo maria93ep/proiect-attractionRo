@@ -31,7 +31,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className={`bg-dark text-white py-2 ${isFooterVisible ? '' : 'hidden'}`} style={{ bottom: 0, left: 0, right: 0, opacity: 0.8, height: '100px', position: 'fixed', zIndex: 999 }}>
+    <footer className={`bg-dark text-white py-2 ${isFooterVisible ? '' : 'fixed-bottom'}`} style={{ bottom: 0, left: 0, right: 0, opacity: 0.8, height: '100px', position: 'fixed', zIndex: 999 }}>
       <div className="container" style={{ maxWidth: '100vw' }}>
         <div className="row footer-container justify-content-center">
           <div className="col-md-3 col-sm-6 contact">
