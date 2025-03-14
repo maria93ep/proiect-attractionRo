@@ -12,10 +12,9 @@ import attractionsAndHotels from './components/attractionsAndHotels';
 function App() {
   console.log(attractionsAndHotels); 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/proiect-attractionRo">
 
-
-      <Routes>
+    <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/about" element={<About />} />
