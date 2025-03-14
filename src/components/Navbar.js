@@ -18,19 +18,21 @@ const Navbar = () => {
       backgroundPosition: 'center',
     }}>
       <div className="container" style={{
-        display: 'flex', 
-        flexDirection: windowWidth < 768 ? 'column' : 'row', // Schimbă alinierea pe mobil
-        alignItems: 'center', 
-        justifyContent: 'center'
+        display: 'flex',
+        flexDirection: windowWidth < 768 ? 'column' : 'row', // Schimbă la coloană pe dispozitive mici
+        alignItems: windowWidth < 768 ? 'center' : 'flex-start', // Aliniaza la centru pe mobil, la stânga pe desktop
+        justifyContent: windowWidth < 768 ? 'center' : 'flex-start', // Aliniaza la centru pe mobil, la stânga pe desktop
+        paddingLeft: windowWidth >= 768 ? '10px' : '0', // Adaugă padding la stânga pe desktop, nu pe mobil
+        paddingTop: windowWidth < 768 ? '10px' : '0', // Adaugă padding sus pe mobil
       }}>
         <span className="navbar-brand" style={{
-          fontSize: windowWidth < 768 ? '20px' : '40px', 
-          fontWeight: 'bold', 
-          textAlign: 'center',  // Asigură că textul este centrat pe ecran mic
-          display: 'flex', 
-          flexDirection: 'column', // Pe mobil, textul se va alinia pe mai multe linii
-          justifyContent: 'center',
-          alignItems: 'center'
+          fontSize: windowWidth < 768 ? '20px' : '40px', // Dimensiunea textului pe baza lățimii ecranului
+          fontWeight: 'bold',
+          textAlign: 'center',  // Textul este centrat pe mobil
+          display: 'flex',
+          flexDirection: windowWidth < 768 ? 'column' : 'row', // Coloană pe mobil, rând pe desktop
+          justifyContent: 'center', // Aliniaza la centru pe mobil
+          alignItems: windowWidth < 768 ? 'center' : 'flex-start', // Pe mobil, elementele sunt centrate, pe desktop la stânga
         }}>
           <span style={{ color: 'blue', fontWeight: 'bold', fontStyle: 'italic', marginRight: '7px' }}>Top</span>
           <span style={{ color: 'yellow', fontWeight: 'bold', fontStyle: 'italic', marginRight: '7px' }}>Destinations</span>
