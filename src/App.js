@@ -13,6 +13,8 @@ function App() {
   console.log(attractionsAndHotels); 
   return (
     <Router basename="/">
+
+
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<Blog />} />
