@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css';
 import HomePage from "./pages/HomePage";
 import NotFound from "./pages/NotFound";
@@ -12,7 +12,7 @@ import attractionsAndHotels from './components/attractionsAndHotels';
 function App() {
   console.log(attractionsAndHotels); 
   return (
-    <BrowserRouter basename="/proiect-attractionRo">
+    <Router basename="/proiect-attractionRo">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/blog" element={<Blog />} />
@@ -21,7 +21,7 @@ function App() {
         <Route path="/hotel/:hotelId" element={<HotelPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

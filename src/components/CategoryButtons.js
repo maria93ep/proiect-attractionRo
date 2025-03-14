@@ -12,8 +12,9 @@ const CategoryButtons = ({ handleCategoryChange }) => {
     color: '#fff',
     backgroundColor: 'transparent',
     border: 'none',
-    marginRight: '10px',
+    marginBottom: '10px', // Adaugă puțin spațiu între butoane
     paddingLeft: '50px',
+    width: '100%', // Asigură că butoanele vor ocupa toată lățimea disponibilă
   };
 
   const hoverStyle = {
@@ -23,7 +24,8 @@ const CategoryButtons = ({ handleCategoryChange }) => {
   return (
     <div className="container">
       <div className="row">
-        <div className="col">
+        {/* Pe ecrane mici (sub 576px) sunt 2 sau 3 coloane, iar pe ecrane mari 6 coloane */}
+        <div className="col-6 col-sm-4 col-md-2">
           <button
             type="button"
             className="category-btn"
@@ -33,7 +35,7 @@ const CategoryButtons = ({ handleCategoryChange }) => {
             Nature
           </button>
         </div>
-        <div className="col">
+        <div className="col-6 col-sm-4 col-md-2">
           <button
             type="button"
             className="category-btn"
@@ -43,7 +45,7 @@ const CategoryButtons = ({ handleCategoryChange }) => {
             Castles
           </button>
         </div>
-        <div className="col">
+        <div className="col-6 col-sm-4 col-md-2">
           <button
             type="button"
             className="category-btn"
@@ -53,7 +55,7 @@ const CategoryButtons = ({ handleCategoryChange }) => {
             Museums
           </button>
         </div>
-        <div className="col">
+        <div className="col-6 col-sm-4 col-md-2">
           <button
             type="button"
             className="category-btn"
@@ -63,7 +65,7 @@ const CategoryButtons = ({ handleCategoryChange }) => {
             Fortresses
           </button>
         </div>
-        <div className="col">
+        <div className="col-6 col-sm-4 col-md-2">
           <button
             type="button"
             className="category-btn"
@@ -73,7 +75,7 @@ const CategoryButtons = ({ handleCategoryChange }) => {
             Monasteries
           </button>
         </div>
-        <div className="col">
+        <div className="col-6 col-sm-4 col-md-2">
           <button
             type="button"
             className="category-btn"
