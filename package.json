@@ -1,7 +1,6 @@
 {
   "homepage": "https://maria93ep.github.io/proiect-attractionRo",
-
-  "name": "proiect-attractionRo",
+  "name": "proiect-AttractionRo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -14,7 +13,8 @@
     "react-dom": "^18.2.0",
     "react-leaflet": "^4.2.1",
     "react-router-dom": "^6.22.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
+    "semver": "^7.7.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -23,7 +23,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "lint": "eslint src/**/*.js"
   },
   "eslintConfig": {
     "extends": [
