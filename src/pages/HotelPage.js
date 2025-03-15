@@ -125,9 +125,9 @@ const HotelPage = () => {
             <label>Meal:</label>
             <select value={selectedMeal} onChange={(e) => setSelectedMeal(e.target.value)}>
               <option value="">Select Meal</option>
-              {hotelData.breakfast && <option value="breakfast">Breakfast (${hotelData.breakfastPrice})</option>}
-              {hotelData.lunch && <option value="lunch">Lunch (${hotelData.lunchPrice})</option>}
-              {hotelData.dinner && <option value="dinner">Dinner (${hotelData.dinnerPrice})</option>}
+              {hotelData.breakfast && <option value="breakfast">Breakfast (${hotelData.breakfastPrice} per person)</option>}
+              {hotelData.lunch && <option value="lunch">Lunch (${hotelData.lunchPrice} per person)</option>}
+              {hotelData.dinner && <option value="dinner">Dinner (${hotelData.dinnerPrice} per person)</option>}
             </select>
           </div>
           <div>

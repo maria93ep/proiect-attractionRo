@@ -12,7 +12,9 @@ import attractionsAndHotels from './components/attractionsAndHotels';
 function App() {
   console.log(attractionsAndHotels); 
   return (
-    <BrowserRouter basename="/proiect-attractionRo">
+    <BrowserRouter basename={process.env.NODE_ENV === "production" ? "/proiect-attractionRo" : "/"}>
+
+
 
     <Routes>
         <Route path="/" element={<HomePage />} />
