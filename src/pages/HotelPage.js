@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
+import { Helmet } from 'react-helmet'; // Importă Helmet pentru SEO
 import attractionsAndHotels from '../components/attractionsAndHotels';
 
 const HotelPage = () => {
@@ -83,73 +84,107 @@ const HotelPage = () => {
   const today = new Date().toISOString().split('T')[0];
 
   return (
-    <div style={{
-      textAlign: 'left',
-      paddingLeft: '20px',
-      backgroundImage: `url('https://img.freepik.com/free-vector/happy-tourists-choosing-hotel-booking-room-online-flat-illustration_74855-10811.jpg')`,
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center',
-      width: '100vw',
-      height: '100vh',
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'center',
-      color: 'black'
-    }}>
-      {hotelData ? (
-        <div style={{ maxWidth: '800px', padding: '20px', backgroundColor: 'rgba(255, 255, 255, 0.8)' }}>
-          <h1 style={{ textAlign: 'center' }}>{hotelData.name}</h1>
-          <p>{hotelData.description}</p>
-          <div>
-            <label>Check-in Date:</label>
-            <input type="date" value={checkInDate} min={today} onChange={(e) => setCheckInDate(e.target.value)} />
+    <>
+      <Helmet>
+        <title>{hotelData ? `${hotelData.name} - Hotel Booking` : 'Hotel Booking'}</title>
+        <meta name="description" content={hotelData ? `Book your stay at ${hotelData.name}, one of the best hotels in Romania. Check-in and check-out options available.` : 'Hotel Booking in Romania'} />
+        <meta name="keywords" content="hotel booking, Romania hotels, best hotels Romania, Romania travel, hotel reservation" />
+        <meta name="robots" content="index, follow" />
+      </Helmet>
+
+      <div style={{
+        textAlign: 'left',
+        paddingLeft: '20px',
+        backgroundImage: 'url(https://img.freepik.com/free-vector/happy-tourists-choosing-hotel-booking-room-online-flat-illustration_74855-10811.jpg)',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        width: '100vw',
+        height: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        color: 'black'
+      }}>
+        {hotelData ? (
+          <div style={{
+            maxWidth: '800px',
+            padding: '20px',
+            backgroundColor: 'rgba(255, 255, 255, 0.8)',
+            borderRadius: '10px',
+            boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
+          }}>
+            <h1 style={{ textAlign: 'center' }}>{hotelData.name}</h1>
+            <p>{hotelData.description}</p>
+            <div style={{ marginBottom: '10px' }}>
+              <label>Check-in Date:</label>
+              <input type="date" value={checkInDate} min={today} onChange={(e) => setCheckInDate(e.target.value)} />
+            </div>
+            <div style={{ marginBottom: '10px' }}>
+              <label>Check-out Date:</label>
+              <input type="date" value={checkOutDate} min={checkInDate || today} onChange={(e) => setCheckOutDate(e.target.value)} />
+            </div>
+            <div style={{ marginBottom: '10px' }}>
+              <label>Number of Adults:</label>
+              <input type="number" value={adults} min="1" onChange={(e) => setAdults(parseInt(e.target.value))} />
+            </div>
+            <div style={{ marginBottom: '10px' }}>
+              <label>Children (under 2 years old, free):</label>
+              <input type="number" value={children2} min="0" onChange={(e) => setChildren2(parseInt(e.target.value))} />
+            </div>
+            <div style={{ marginBottom: '10px' }}>
+              <label>Children (2-6 years old, half price):</label>
+              <input type="number" value={children6} min="0" onChange={(e) => setChildren6(parseInt(e.target.value))} />
+            </div>
+            <div style={{ marginBottom: '10px' }}>
+              <label>Meal:</label>
+              <select value={selectedMeal} onChange={(e) => setSelectedMeal(e.target.value)}>
+                <option value="">Select Meal</option>
+                {hotelData.breakfast && <option value="breakfast">Breakfast (${hotelData.breakfastPrice} per person)</option>}
+                {hotelData.lunch && <option value="lunch">Lunch (${hotelData.lunchPrice} per person)</option>}
+                {hotelData.dinner && <option value="dinner">Dinner (${hotelData.dinnerPrice} per person)</option>}
+              </select>
+            </div>
+            <div style={{ marginBottom: '10px' }}>
+              <label>Payment Method:</label>
+              <select value={paymentMethod} onChange={(e) => setPaymentMethod(e.target.value)}>
+                <option value="">Select Payment Method</option>
+                <option value="visa">Visa</option>
+                <option value="maestro">Maestro</option>
+                <option value="master">Master</option>
+                <option value="paypal">PayPal</option>
+              </select>
+            </div>
+            <button onClick={calculateTotalPrice}>Calculate Total Price</button>
+            {totalPrice > 0 && <p style={{ color: 'green', fontSize: '1.5em' }}>Total Price: ${totalPrice.toFixed(2)}</p>}
+            <button onClick={handleReservation} style={{ marginTop: '20px', marginBottom: '20px' }}>Book Now</button>
+            {confirmationMessage && (
+              <p style={{
+                color: 'green',
+                fontSize: '1.5em',
+                animation: 'fireworks 1s ease-out',
+                fontWeight: 'bold',
+              }}>
+                {confirmationMessage}
+              </p>
+            )}
+            {error && <p style={{ color: 'red' }}>{error}</p>}
           </div>
-          <div>
-            <label>Check-out Date:</label>
-            <input type="date" value={checkOutDate} min={checkInDate || today} onChange={(e) => setCheckOutDate(e.target.value)} />
-          </div>
-          <div>
-            <label>Number of Adults:</label>
-            <input type="number" value={adults} min="1" onChange={(e) => setAdults(parseInt(e.target.value))} />
-          </div>
-          <div>
-            <label>Children (under 2 years old, free):</label>
-            <input type="number" value={children2} min="0" onChange={(e) => setChildren2(parseInt(e.target.value))} />
-          </div>
-          <div>
-            <label>Children (2-6 years old, half price):</label>
-            <input type="number" value={children6} min="0" onChange={(e) => setChildren6(parseInt(e.target.value))} />
-          </div>
-          <div>
-            <label>Meal:</label>
-            <select value={selectedMeal} onChange={(e) => setSelectedMeal(e.target.value)}>
-              <option value="">Select Meal</option>
-              {hotelData.breakfast && <option value="breakfast">Breakfast (${hotelData.breakfastPrice} per person)</option>}
-              {hotelData.lunch && <option value="lunch">Lunch (${hotelData.lunchPrice} per person)</option>}
-              {hotelData.dinner && <option value="dinner">Dinner (${hotelData.dinnerPrice} per person)</option>}
-            </select>
-          </div>
-          <div>
-            <label>Payment Method:</label>
-            <select value={paymentMethod} onChange={(e) => setPaymentMethod(e.target.value)}>
-              <option value="">Select Payment Method</option>
-              <option value="visa">Visa</option>
-              <option value="maestro">Maestro</option>
-              <option value="master">Master</option>
-              <option value="paypal">PayPal</option>
-            </select>
-          </div>
-          <button onClick={calculateTotalPrice}>Calculate Total Price</button>
-          {totalPrice > 0 && <p style={{ color: 'green', fontSize: '1.5em' }}>Total Price: ${totalPrice.toFixed(2)}</p>}
-          <button onClick={handleReservation}>Book Now</button>
-          {confirmationMessage && <p style={{ color: 'green', fontSize: '1.5em' }}>{confirmationMessage}</p>}
-          {error && <p style={{ color: 'red' }}>{error}</p>}
-        </div>
-      ) : (
-        <p>{error}</p>
-      )}
-    </div>
+        ) : (
+          <p>{error}</p>
+        )}
+
+        <style>{`
+          @keyframes fireworks {
+            0% { transform: scale(1); opacity: 1; }
+            25% { transform: scale(1.2); opacity: 0.8; }
+            50% { transform: scale(1.4); opacity: 0.6; }
+            75% { transform: scale(1.6); opacity: 0.4; }
+            100% { transform: scale(1.8); opacity: 0; }
+          }
+        `}</style>
+      </div>
+    </>
   );
 };
 

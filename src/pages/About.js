@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import Lucaimg from '../media/Lucaimg.jpg';
 import man from '../media/man.jpg';
 import lady from '../media/lady.jpg';
@@ -8,6 +9,10 @@ import Footer from '../components/Footer';
 const About = () => {
   return (
     <div style={{ backgroundColor: '#add8e6', padding: '20px' }}>
+      <Helmet>
+        <title>About Us - Discover Romania</title>
+        <meta name="description" content="Learn more about our travel agency, our history, team, and services." />
+      </Helmet>
       <ButtonComponent />
       <div className="container mt-5">
         <h1 className="mb-4 text-center">About Us</h1>
@@ -56,12 +61,7 @@ Our team of travel experts has handpicked the best destinations in Romania to en
 
 In addition to providing top-notch accommodation and flights, we also offer information on nearby tourist attractions. Whether you're interested in exploring historic landmarks, experiencing local culture, or simply relaxing in nature, we can recommend the best attractions near our hotels. Plus, with our convenient flight booking services, you can easily plan your itinerary to include visits to these attractions.
 
-Whether you're traveling solo, as a couple, or with family, our team will tailor your trip to suit your interests, budget, and schedule. We take pride in providing personalized service to ensure your vacation is everything you've dreamed of and more.
-
-
-
-
-</p>
+Whether you're traveling solo, as a couple, or with family, our team will tailor your trip to suit your interests, budget, and schedule. We take pride in providing personalized service to ensure your vacation is everything you've dreamed of and more.</p>
         <div className="row">
           <div className="col-md-6">
             <blockquote className="blockquote text-center">
